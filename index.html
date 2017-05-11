@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <title>RileyKonsella.rodeo</title>
@@ -15,7 +16,7 @@
   <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="shortcut icon" sizes="196x196" href="../assets/images/logo.png">
-  
+
   <!-- style -->
   <link rel="stylesheet" href="assets/animate.css/animate.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" type="text/css" />
@@ -23,43 +24,44 @@
   <link rel="stylesheet" href="assets/styles/app.css" type="text/css" />
   <link rel="stylesheet" href="assets/styles/font.css" type="text/css" />
 </head>
+
 <body ng-app="rodeo">
   <header>
-      <nav class="navbar navbar-md navbar-fixed-top fsafsafasfa">
-        <div class="container">
-          <!--<a data-toggle="collapse" data-target="#navbar-1" class="navbar-item pull-right hidden-md-up m-a-0 m-l">
+    <nav class="navbar navbar-md navbar-fixed-top fsafsafasfa">
+      <div class="container">
+        <!--<a data-toggle="collapse" data-target="#navbar-1" class="navbar-item pull-right hidden-md-up m-a-0 m-l">
             <i class="fa fa-bars"></i>
           </a>-->
-          
-          <!-- brand -->
-          <a class="navbar-brand md" href="#home" ui-scroll-to="home">
-            <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="32" height="32">
+
+        <!-- brand -->
+        <a class="navbar-brand md" href="#home" ui-scroll-to="home">
+          <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="32" height="32">
               <path d="M 4 4 L 44 4 L 44 44 Z" fill="#a88add" />
               <path d="M 4 4 L 34 4 L 24 24 Z" fill="rgba(0,0,0,0.15)" />
               <path d="M 4 4 L 24 4 L 4  44 Z" fill="#0cc2aa" />
             </svg>-->
-            <img src="assets/images/rk-logo-2-L-01.png" alt="rk logo" height="32"> 
+          <img src="assets/images/rk-logo-2-L-01.png" alt="rk logo" height="32">
 
-            <span class="hidden-folded inline _300">rileykonsella.rodeo</span>
-          </a>
-          <!-- / brand -->
+          <span class="hidden-folded inline _300">rileykonsella.rodeo</span>
+        </a>
+        <!-- / brand -->
 
-          <!-- nabar right -->
-          <ul class="nav navbar-nav pull-right">
-            <li class="nav-item">
-              <a class="nav-link" type="submit" onclick="window.open('assets/other/konsella-resume.pdf')">
+        <!-- nabar right -->
+        <ul class="nav navbar-nav pull-right">
+          <li class="nav-item">
+            <a class="nav-link" type="submit" onclick="window.open('assets/other/konsella-resume.pdf')">
                 <span class="btn btn-sm rounded block-riley-green text-u-c _700">
                     <i class="fa fa-arrow-circle-down"></i>
                      Get résumé
                 </span>
               </a>
-            </li>
-          </ul>
-          <!-- / navbar right -->
-          <!-- navbar collapse -->
-          <!--<div class="collapse navbar-toggleable-sm text-center white" id="navbar-1">-->
-            <!-- link and dropdown -->
-            <!--<ul class="nav navbar-nav nav-active-border top b-primary pull-right m-r-lg">
+          </li>
+        </ul>
+        <!-- / navbar right -->
+        <!-- navbar collapse -->
+        <!--<div class="collapse navbar-toggleable-sm text-center white" id="navbar-1">-->
+        <!-- link and dropdown -->
+        <!--<ul class="nav navbar-nav nav-active-border top b-primary pull-right m-r-lg">
               <li class="nav-item">
                 <a class="nav-link" href="#demos" ui-scroll-to="demos" >
                   <span class="nav-text">Demos</span> 
@@ -81,162 +83,29 @@
                 </a>
               </li>
             </ul>-->
-            <!-- / link and dropdown -->
-          <!--</div>-->
-          <!-- / navbar collapse -->
-        </div>
-      </nav>
+        <!-- / link and dropdown -->
+        <!--</div>-->
+        <!-- / navbar collapse -->
+      </div>
+    </nav>
   </header>
   <div class="page-content" id="home">
 
-    
+
     <div class="h-v white row-col">
 
-      
+
       <div class="row-cell v-m">
         <div class="container">
-        <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
-        <div ui-view></div>
+          <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+          <div ui-view></div>
 
-    </div>
-        <div class="container p-y-lg pos-rlt">
-          <h1 class="display-3 _700 l-s-n-3x m-t-lg m-b-md">Work in progress.</h1>
-          <h5 class="text-muted m-b-lg">And my booty too big for left shark. Get in touch now at <strong>rwkonsella@gmail.com</strong> or check out my résumé above.</h5>
-          <!--<a href="#demos" ui-scroll-to="demos" class="btn btn-lg btn-outline b-primary text-primary b-2x">See the demos</a>-->
         </div>
       </div>
     </div>
-    
-    <!--<div class="p-y-lg" id="demos">
-      <div class="container p-y-lg text-primary-hover">
-        <h2 class=" _700 l-s-n-1x m-b-md">We love <span class="text-primary">variant</span></h2>
-        <h5 class="text-muted m-b-lg">Choose what you like</h5>
-        <div class="row m-y-lg">
-          <div class="col-md-6 col-lg-4">
-            <div class="box white box-shadow-z3 text-center">
-                <a href="angular">
-                  <img class="img-responsive b-b m-b" src="assets/images/layout.png" alt="default">
-                  <span class="_800 p-a block h4 m-a-0">Default</span>
-                </a>
-                <div class="box-body">
-                  <p>
-                    <a href="angular?bg=bg">Light</a>, 
-                    <a href="angular?bg=grey">Grey</a>, 
-                    <a href="angular?bg=dark">Dark</a>, 
-                    <a href="angular?bg=black">Black</a>
-                  </p>
-                </div>
-                <div class="row-col b-t">
-                  <a href="angular" class="row-cell _500 p-a b-r">Angular</a>
-                  <a href="html/dashboard.html" class="row-cell _500 p-a">Html</a>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box white box-shadow-z3 text-center">
-                <a href="angular/?layout=0">
-                  <img class="img-responsive b-b m-b" src="assets/images/layout.0.png" alt="zero">
-                  <span class="_800 p-a block h4 m-a-0">Zero</span>
-                </a>
-                <div class="box-body">
-                  <p>
-                    <a href="angular?layout=0&bg=bg">Light</a>, 
-                    <a href="angular?layout=0&bg=grey">Grey</a>, 
-                    <a href="angular?layout=0&bg=dark">Dark</a>, 
-                    <a href="angular?layout=0&bg=black">Black</a>
-                  </p>
-                </div>
-                <div class="row-col b-t">
-                  <a href="angular/?layout=0" class="row-cell _500 p-a b-r">Angular</a>
-                  <a href="html/dashboard.0.html" class="row-cell _500 p-a">Html</a>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box white box-shadow-z3 text-center">
-                <a href="angular/?layout=1">
-                  <img class="img-responsive b-b m-b" src="assets/images/layout.1.png" alt="zero">
-                  <span class="_800 p-a block h4 m-a-0">One</span>
-                </a>
-                <div class="box-body">
-                  <p>
-                    <a href="angular?layout=1&bg=bg">Light</a>, 
-                    <a href="angular?layout=1&bg=grey">Grey</a>, 
-                    <a href="angular?layout=1&bg=dark">Dark</a>, 
-                    <a href="angular?layout=1&bg=black">Black</a>
-                  </p>
-                </div>
-                <div class="row-col b-t">
-                  <a href="angular/?layout=1" class="row-cell _500 p-a b-r">Angular</a>
-                  <a href="html/dashboard.1.html" class="row-cell _500 p-a">Html</a>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box white box-shadow-z3 text-center">
-                <a href="angular/?layout=2">
-                  <img class="img-responsive b-b m-b" src="assets/images/layout.2.png" alt="zero">
-                  <span class="_800 p-a block h4 m-a-0">Two</span>
-                </a>
-                <div class="box-body">
-                  <p>
-                    <a href="angular?layout=2&bg=bg">Light</a>, 
-                    <a href="angular?layout=2&bg=grey">Grey</a>, 
-                    <a href="angular?layout=2&bg=dark">Dark</a>, 
-                    <a href="angular?layout=2&bg=black">Black</a>
-                  </p>
-                </div>
-                <div class="row-col b-t">
-                  <a href="angular/?layout=2" class="row-cell _500 p-a b-r">Angular</a>
-                  <a href="html/dashboard.2.html" class="row-cell _500 p-a">Html</a>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box white box-shadow-z3 text-center">
-                <a href="angular/?layout=3">
-                  <img class="img-responsive b-b m-b" src="assets/images/layout.3.png" alt="zero">
-                  <span class="_800 p-a block h4 m-a-0">Three</span>
-                </a>
-                <div class="box-body">
-                  <p>
-                    <a href="angular?layout=3&bg=bg">Light</a>, 
-                    <a href="angular?layout=3&bg=grey">Grey</a>, 
-                    <a href="angular?layout=3&bg=dark">Dark</a>, 
-                    <a href="angular?layout=3&bg=black">Black</a>
-                  </p>
-                </div>
-                <div class="row-col b-t">
-                  <a href="angular/?layout=3" class="row-cell _500 p-a b-r">Angular</a>
-                  <a href="html/dashboard.3.html" class="row-cell _500 p-a">Html</a>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box white box-shadow-z3 text-center">
-                <a href="angular/?layout=4">
-                  <img class="img-responsive b-b m-b" src="assets/images/layout.4.png" alt="zero">
-                  <span class="_800 p-a block h4 m-a-0">Four</span>
-                </a>
-                <div class="box-body">
-                  <p>
-                    <a href="angular?layout=4&bg=bg">Light</a>, 
-                    <a href="angular?layout=4&bg=grey">Grey</a>, 
-                    <a href="angular?layout=4&bg=dark">Dark</a>, 
-                    <a href="angular?layout=4&bg=black">Black</a>
-                  </p>
-                </div>
-                <div class="row-col b-t">
-                  <a href="angular/?layout=4" class="row-cell _500 p-a b-r">Angular</a>
-                  <a href="html/dashboard.4.html" class="row-cell _500 p-a">Html</a>
-                </div>
-            </div>
-          </div>
-        </div>-->
-        <!--<h5 class="m-y-lg text-muted text-center">Until then, email me now at <a href="mailto:rwkonsella@gmail.com"><strong>rwkonsella@gmail.com</strong></a></h5>-->
-      </div>
-    <!--</div>-->
-    <!--<div class="pos-rlt" id="features">
+  </div>
+  <!--</div>-->
+  <!--<div class="pos-rlt" id="features">
       <div class="h-v-5 row-col text-center">
         <div class="col-sm-6 deep-purple v-m">
           <div class="p-a-lg">
@@ -265,8 +134,7 @@
           </div>
         </div>
       </div>-->
-    <!--</div>-->
-  </div>
+  <!--</div>-->
   <!--<footer class="black pos-rlt">
     <div class="footer dk">
       <div class="text-center container p-y-lg">
@@ -322,4 +190,5 @@
   <script src="../libs/angular/angular-ui-router/release/angular-ui-router.js"></script>
 
 </body>
+
 </html>
