@@ -5730,3 +5730,21 @@ textarea.md-input {
 .fade-in-down.ng-leave {
   -webkit-animation: fadeOutDown 0.5s;
   animation: fadeOutDown 0.5s; }
+
+.riley-blue {
+  color: #1b89af;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.riley-green {
+  color: #22bc9f;
+}
+
+.riley-yellow {
+  color: #ffbd1f;
+}
+
+.riley-orange {
+  color: #ffbd1f;
+}
+
