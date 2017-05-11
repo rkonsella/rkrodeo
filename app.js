@@ -28,14 +28,14 @@
 
     routerApp.config(function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/parked');
 
         $stateProvider
 
             // HOME STATES AND NESTED VIEWS ========================================
-            .state('home', {
-                url: '/home',
-                templateUrl: 'states/test.html'
+            .state('parked', {
+                url: '/parked',
+                templateUrl: 'states/parked.html'
             })
 
             // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
