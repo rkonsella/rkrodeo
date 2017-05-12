@@ -41,7 +41,7 @@
             .state('home', {
                 url: '/home',
                 templateUrl: 'states/home.html'
-            })
+            });
 
             // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
             // .state('about', {
