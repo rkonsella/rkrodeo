@@ -28,7 +28,7 @@
 
     routerApp.config(function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/parked');
 
         $stateProvider
 
@@ -38,10 +38,10 @@
                 templateUrl: 'states/parked.html'
             })
 
-            .state('home', {
-                url: '/home',
-                templateUrl: 'states/home.html'
-            });
+            // .state('home', {
+            //     url: '/home',
+            //     templateUrl: 'states/home.html'
+            // });
 
             // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
             // .state('about', {
