@@ -28,7 +28,7 @@
 
     routerApp.config(function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/parked');
+        $urlRouterProvider.otherwise('/home');
 
         $stateProvider
 
@@ -36,6 +36,11 @@
             .state('parked', {
                 url: '/parked',
                 templateUrl: 'states/parked.html'
+            })
+
+            .state('home', {
+                url: '/home',
+                templateUrl: 'states/home.html'
             })
 
             // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
