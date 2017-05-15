@@ -38,10 +38,25 @@
                 templateUrl: 'states/parked.html'
             })
 
-            // .state('home', {
-            //     url: '/home',
-            //     templateUrl: 'states/home.html'
-            // });
+            .state('home', {
+                url: '/home',
+                templateUrl: 'states/home.html'
+            })
+
+            .state('about', {
+                url: '/about',
+                templateUrl: 'states/about.html'
+            })
+
+            .state('watson', {
+                url: '/watson',
+                templateUrl: 'states/watson.html'
+            })
+
+            .state('projects', {
+                url: '/projects',
+                templateUrl: 'states/projects.html'
+            });
 
             // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
             // .state('about', {
