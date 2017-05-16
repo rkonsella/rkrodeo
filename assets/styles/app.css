@@ -139,7 +139,7 @@ sup {
 .btn.primary:hover,
 .btn.primary:focus {
   color: rgba(255, 255, 255, 0.87) !important;
-  background-color: #0cc2aa; }
+  background-color:  #22bc9f; }
 
 .btn.b-accent:hover,
 .btn.b-accent:focus,
@@ -3303,7 +3303,7 @@ body {
   border-color: #fff; }
 
 .b-primary {
-  border-color: #0cc2aa; }
+  border-color:  #22bc9f; }
 
 .b-t-primary {
   border-top-color: #0cc2aa; }
@@ -3312,7 +3312,7 @@ body {
   border-right-color: #0cc2aa; }
 
 .b-b-primary {
-  border-bottom-color: #0cc2aa; }
+  border-bottom-color:  #22bc9f; }
 
 .b-l-primary {
   border-left-color: #0cc2aa; }
