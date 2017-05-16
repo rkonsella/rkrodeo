@@ -5771,3 +5771,11 @@ textarea.md-input {
   color: #e6e6e6;
 }
 
+.linkedin-blue {
+  background-color: #007bb5;
+  color: rgba(255, 255, 255, 0.87); }
+
+.github-black {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.87); }
+
