@@ -1737,15 +1737,52 @@ body {
     width: inherit;
     position: absolute; }
 
-
-
-
-  body.container {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+@media (max-width: 991px) {
+  body.container,
+  .app .container {
     max-width: 100%;
     padding-left: 0;
-    padding-right: 0; 
-  }
+    padding-right: 0; } }
+
+@media (min-width: 992px) {
+  body.container {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+    body.container,
+    body.container .container {
+      padding-left: 0;
+      padding-right: 0; }
+    body.container .app-aside {
+      left: inherit;
+      right: auto; }
+      body.container .app-aside.lg ~ .app-content .app-header {
+        width: 45rem; }
+      body.container .app-aside.sm ~ .app-content .app-header {
+        width: 47.5rem; }
+      body.container .app-aside.folded ~ .app-content .app-header {
+        width: 54.75rem; }
+      body.container .app-aside.folded.md ~ .app-content .app-header {
+        width: 53.75rem; }
+      body.container .app-aside ~ .app-content .app-header {
+        width: 46.25rem; }
+    body.container .app-header {
+      left: inherit;
+      right: auto;
+      margin-left: 0;
+      width: 58.75rem; } }
+
+@media (min-width: 1200px) {
+  body.container .app-aside.lg ~ .app-content .app-header {
+    width: 57.5rem; }
+  body.container .app-aside.sm ~ .app-content .app-header {
+    width: 60rem; }
+  body.container .app-aside.folded ~ .app-content .app-header {
+    width: 67.25rem; }
+  body.container .app-aside.folded.md ~ .app-content .app-header {
+    width: 66.25rem; }
+  body.container .app-aside ~ .app-content .app-header {
+    width: 58.75rem; }
+  body.container .app-header {
+    width: 71.25rem; } }
 
 .list {
   padding-left: 0;
