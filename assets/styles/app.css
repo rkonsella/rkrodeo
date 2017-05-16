@@ -2974,7 +2974,7 @@ body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #424242; }
   .grey .lt {
-    background-color: #686868; }
+    background-color: #505050; }
   .grey .dk {
     background-color: #3c3c3c; }
   .grey .bg {
@@ -5774,8 +5774,3 @@ textarea.md-input {
 .linkedin-blue {
   background-color: #007bb5;
   color: rgba(255, 255, 255, 0.87); }
-
-.github-black {
-  background-color: #000000;
-  color: rgba(255, 255, 255, 0.87); }
-
