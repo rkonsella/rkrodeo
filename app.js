@@ -56,6 +56,11 @@
             .state('projects', {
                 url: '/projects',
                 templateUrl: 'states/projects.html'
+            })
+
+            .state('contact', {
+                url: '/contact',
+                templateUrl: 'states/contact.html'
             });
 
             // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
