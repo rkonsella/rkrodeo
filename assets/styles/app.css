@@ -5735,42 +5735,43 @@ textarea.md-input {
   -webkit-animation: fadeOutDown 0.5s;
   animation: fadeOutDown 0.5s; }
 
-.riley-blue {
+.txt-riley-blue {
   color: #1b89af;
 }
 
-.riley-green {
+.txt-riley-green {
   color: #22bc9f;
 }
 
-.riley-yellow {
+.txt-riley-yellow {
   color: #ffbd1f;
 }
 
-.riley-orange {
+.txt-riley-orange {
   color: #ffbd1f;
 }
 
-.block-riley-blue {
+.bg-riley-blue {
   background-color: #1b89af;
-  color: #e6e6e6;
+  color: rgba(255, 255, 255, 0.87); 
 }
 
-.block-riley-green {
+.bg-riley-green {
   background-color: #22bc9f;
-  color: #e6e6e6;
+  color: rgba(255, 255, 255, 0.87); 
 }
 
-.block-riley-yellow {
+.bg-riley-yellow {
   background-color: #ffbd1f;
-  color: #e6e6e6;
+  color: rgba(255, 255, 255, 0.87); 
 }
 
-.block-riley-orange {
+.bg-riley-orange {
   background-color: #ffbd1f;
-  color: #e6e6e6;
+  color: rgba(255, 255, 255, 0.87); 
 }
 
 .linkedin-blue {
   background-color: #007bb5;
-  color: rgba(255, 255, 255, 0.87); }
+  color: rgba(255, 255, 255, 0.87); 
+}
