@@ -2644,7 +2644,6 @@ body {
 .black .btn-default.form-control,
 .grey .btn-default.form-control {
   background: transparent !important;
-  background-color: rgba(255, 255, 255, 0.1) !important;
   color: inherit !important; }
 
 .ui-select-bootstrap > .ui-select-choices {
@@ -2972,13 +2971,13 @@ body {
 
 .grey {
   color: rgba(255, 255, 255, 0.87);
-  background-color: #424242; }
+  background-color: #b3b3b3; }
   .grey .lt {
     background-color: #505050; }
   .grey .dk {
     background-color: #3c3c3c; }
   .grey .bg {
-    background-color: #424242; }
+    background-color: #b3b3b3; }
 
 .primary {
   color: rgba(255, 255, 255, 0.87);
