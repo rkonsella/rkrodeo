@@ -5775,3 +5775,8 @@ textarea.md-input {
   background-color: #007bb5;
   color: rgba(255, 255, 255, 0.87); 
 }
+
+.simple-border {
+  padding: 0.25em;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+}
