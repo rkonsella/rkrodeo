@@ -5755,6 +5755,11 @@ textarea.md-input {
   color: rgba(255, 255, 255, 0.87); 
 }
 
+.bg-riley-red {
+  background-color: #e53935;
+  color: rgba(255, 255, 255, 0.87); 
+}
+
 .bg-riley-green {
   background-color: #22bc9f;
   color: rgba(255, 255, 255, 0.87); 
@@ -5772,6 +5777,11 @@ textarea.md-input {
 
 .linkedin-blue {
   background-color: #007bb5;
+  color: rgba(255, 255, 255, 0.87); 
+}
+
+.instagram-red {
+  background-color: #c13584;
   color: rgba(255, 255, 255, 0.87); 
 }
 
