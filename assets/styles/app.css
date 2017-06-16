@@ -5810,3 +5810,10 @@ textarea.md-input {
   border-right: 4px solid #1b89af;
   color: rgba(0, 0, 0, 0.87); 
 }
+
+.border-grey {
+ padding: 0.25em;
+  background-color: #e4e4e4;
+  border: 12px solid #424242;
+  color: rgba(0, 0, 0, 0.87); }
+}
