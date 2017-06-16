@@ -5800,7 +5800,7 @@ textarea.md-input {
 .blue-left-border {
   padding: 0.25em;
   background-color: #e4e4e4;
-  border-left: 12px solid #1b89af;
+  border-left: 2px solid #1b89af;
   color: rgba(0, 0, 0, 0.87); 
 }
 
