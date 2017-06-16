@@ -1,67 +1,69 @@
-
-<div class="p-t-lg">
-  <div class="row-col text-center">
-    <div class="col-md-8 border-grey v-m">
-      <div class="p-a-xs">
-        <h2 class=" _700 l-s-n-1x m-b m-t-md m-b-md">Where am I on my Watson?</h2>
-        <p class="h5 text-muted l-h">
-          I might be in one of my six Watson countries, I might be nearby, or, if it's before July 20, 2017, I haven't begun my Watson!
-        </p>
+<div ng-controller="HomeCtrl">
+  <div class="p-t-lg">
+    <div class="row-col text-center">
+      <div class="col-md-8 border-grey v-m">
+        <div class="p-a-xs">
+          <h2 class=" _700 l-s-n-1x m-b m-t-md m-b-md">Where am I on my Watson?</h2>
+          <p class="h5 text-muted l-h">
+            I might be in one of my six Watson countries, I might be nearby, or, if it's before July 20, 2017, I haven't begun my Watson!
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4 border-grey v-m">
-      <div class="p-a-xs">
-        <div class=""  style="cursor: pointer;" href="https://www.google.com/maps/place/Schenectady,+NY/@42.8035432,-74.0081834,12z/data=!3m1!4b1!4m5!3m4!1s0x89de6dfd3575f8a5:0x19b2708d6f12b27a!8m2!3d42.8142921!4d-73.9397049">
-          <p class="h5 text-muted l-h" href="http://www.google.com">
-            {{location.city}}
-          </p>
-          <p class="h2 l-h">
-            NY, USA
-          </p>
+      <div class="col-md-4 border-grey v-m">
+        <div class="p-a-xs">
+          <div class="" style="cursor: pointer;" href="https://www.google.com/maps/place/Schenectady,+NY/@42.8035432,-74.0081834,12z/data=!3m1!4b1!4m5!3m4!1s0x89de6dfd3575f8a5:0x19b2708d6f12b27a!8m2!3d42.8142921!4d-73.9397049">
+            <p class="h5 text-muted l-h" href="http://www.google.com">
+              {{location.city}}
+            </p>
+            <p class="h2 l-h">
+              NY, USA
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="container m-t-lg m-b-md">
-  <h5 class="text-muted m-b-lg">
-    <p>No, there is no reason I picked ".rodeo" except that I thought it was slightly better than ".fish"</p>
-    <p>Until I get it together long enough to finish my website, contact me at
-      <strong href="mailto:rwkonsella@gmail.com">rwkonsella@gmail.com</strong>, or check out my résumé.</p>
-  </h5>
-</div>
+  <div class="container m-t-lg m-b-md">
+    <h5 class="text-muted m-b-lg">
+      <p>No, there is no reason I picked ".rodeo" except that I thought it was slightly better than ".fish"</p>
+      <p>Until I get it together long enough to finish my website, contact me at
+        <strong href="mailto:rwkonsella@gmail.com">rwkonsella@gmail.com</strong>, or check out my résumé.</p>
+    </h5>
+  </div>
 
 
-<div class="pos-rlt" id="features">
-  <div class="h-v-5 row-col text-center">
-    <div class="col-sm-6 bg-riley-green v-m" href="https://watson.foundation/fellowships/tj/" onmouseover="" style="cursor: pointer;">
-      <div class="p-a-lg">
-        <h2 class=" _700 l-s-n-1x m-y m-b-md">Thomas J. Watson Fellowship</h2>
-        <p class="h5 text-muted l-h">The Thomas J. Watson Fellowship is a one-year grant for purposeful, independent exploration outside the United States.</p>
+  <div class="pos-rlt" id="features">
+    <div class="h-v-5 row-col text-center">
+      <div class="col-sm-6 bg-riley-green v-m" href="https://watson.foundation/fellowships/tj/" onmouseover="" style="cursor: pointer;">
+        <div class="p-a-lg">
+          <h2 class=" _700 l-s-n-1x m-y m-b-md">Thomas J. Watson Fellowship</h2>
+          <p class="h5 text-muted l-h">The Thomas J. Watson Fellowship is a one-year grant for purposeful, independent exploration outside the United
+            States.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 bg-riley-orange v-m">
+        <div class="p-a-lg">
+          <h2 class=" _700 l-s-n-1x m-y m-b-md" onmouseover="" style="cursor: pointer;">Instagram</h2>
+          <p class="h5 text-muted l-h">AngularJS is a toolset for building the framework most suited to your application development.</p>
+        </div>
       </div>
     </div>
-    <div class="col-sm-6 bg-riley-orange v-m">
-      <div class="p-a-lg">
-        <h2 class=" _700 l-s-n-1x m-y m-b-md" onmouseover="" style="cursor: pointer;">Instagram</h2>
-        <p class="h5 text-muted l-h">AngularJS is a toolset for building the framework most suited to your application development.</p>
+    <div class="h-v-5 row-col text-center">
+      <div class="col-sm-6 red-600 v-m">
+        <div class="p-a-lg">
+          <h2 class=" _700 l-s-n-1x m-y m-b-md" onmouseover="" style="cursor: pointer;">Senior Project</h2>
+          <p class="h5 text-muted l-h">Grunt, Bower, Sass, Git, we made it easy for development. you can use hundreds of Grunt plugins to faster your
+            app.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 bg-riley-blue v-m" type="submit" onclick="window.open('konsella-resume.pdf')" onmouseover="" style="cursor: pointer;">
+        <div class="p-a-lg">
+          <h2 class=" _700 l-s-n-1x m-y m-b-md">Résumé</h2>
+          <p class="h5 l-h">Check out my résumé to learn about my project and work experience as well as my technical skills. </p>
+        </div>
       </div>
     </div>
   </div>
-  <div class="h-v-5 row-col text-center">
-    <div class="col-sm-6 red-600 v-m">
-      <div class="p-a-lg">
-        <h2 class=" _700 l-s-n-1x m-y m-b-md" onmouseover="" style="cursor: pointer;">Senior Project</h2>
-        <p class="h5 text-muted l-h">Grunt, Bower, Sass, Git, we made it easy for development. you can use hundreds of Grunt plugins to faster your app.
-        </p>
-      </div>
-    </div>
-    <div class="col-sm-6 bg-riley-blue v-m"  type="submit" onclick="window.open('konsella-resume.pdf')" onmouseover="" style="cursor: pointer;">
-      <div class="p-a-lg">
-        <h2 class=" _700 l-s-n-1x m-y m-b-md">Résumé</h2>
-        <p class="h5 l-h">Check out my résumé to learn about my project and work experience as well as my technical skills. </p>
-      </div>
-    </div>
-  </div>
-</div>
 </div>

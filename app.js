@@ -40,8 +40,7 @@
 
             .state('home', {
                 url: '/home',
-                templateUrl: 'states/home.html',
-                controller: "HomeCtrl"
+                templateUrl: 'states/home.html'
             })
 
             .state('about', {
