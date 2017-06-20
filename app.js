@@ -20,7 +20,8 @@
             'ui.utils',
             'ui.load',
             'ui.jp',
-            'oc.lazyLoad'
+            'oc.lazyLoad',
+            'HomeCtrl'
         ]);
 
 
@@ -40,7 +41,8 @@
 
             .state('home', {
                 url: '/home',
-                templateUrl: 'states/home.html'
+                templateUrl: 'states/home.html',
+                controller: 'HomeCtrl'
             })
 
             .state('about', {
