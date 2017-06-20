@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     angular
-        .module('app')
+        .module('rodeo')
         .controller('HomeCtrl', HomeCtrl);
 
         function HomeCtrl($scope) {

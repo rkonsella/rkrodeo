@@ -9,7 +9,7 @@
 (function () {
     'use strict';
     angular
-        .module('app', [
+        .module('rodeo', [
             'ngAnimate',
             'ngResource',
             'ngSanitize',
