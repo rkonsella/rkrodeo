@@ -20,9 +20,10 @@
             'ui.utils',
             'ui.load',
             'ui.jp',
-            'oc.lazyLoad',
-            'HomeCtrl'
-        ]);
+            'oc.lazyLoad'
+        ])
+        .controller('HomeCtrl', ['$scope', HomeCtrl]);
+        ;
 
 
     var routerApp = angular.module('rodeo', ['ui.router']);
