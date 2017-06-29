@@ -139,7 +139,7 @@ sup {
 .btn.primary:hover,
 .btn.primary:focus {
   color: rgba(255, 255, 255, 0.87) !important;
-  background-color:  #22bc9f; }
+  background-color:  #3eac6d; }
 
 .btn.b-accent:hover,
 .btn.b-accent:focus,
@@ -2936,13 +2936,13 @@ body {
   background-color: rgba(0, 0, 0, 0.035); }
 
 .light {
-  background-color: #f8f8f8; }
+  background-color: #d8d8d8; }
 
 .white {
   background-color: #fff; }
 
 .fsafsafasfa {
- background-color: #1b89af;
+ background-color: #154a84;
 }
 
 .dark-white {
@@ -2965,7 +2965,7 @@ body {
   .dark .lt {
     background-color: #334456; }
   .dark .dk {
-    background-color: #293846; }
+    background-color: #02152a; }
   .dark .bg {
     background-color: #2e3e4e; }
 
@@ -3302,7 +3302,7 @@ body {
   border-color: #fff; }
 
 .b-primary {
-  border-color:  #22bc9f; }
+  border-color:  #3eac6d; }
 
 .b-t-primary {
   border-top-color: #0cc2aa; }
@@ -3311,7 +3311,7 @@ body {
   border-right-color: #0cc2aa; }
 
 .b-b-primary {
-  border-bottom-color:  #22bc9f; }
+  border-bottom-color:  #3eac6d; }
 
 .b-l-primary {
   border-left-color: #0cc2aa; }
@@ -5734,44 +5734,48 @@ textarea.md-input {
   -webkit-animation: fadeOutDown 0.5s;
   animation: fadeOutDown 0.5s; }
 
-.txt-riley-blue {
-  color: #1b89af;
+.txt-riley-main {
+  color: #154a84;
 }
 
 .txt-riley-green {
-  color: #22bc9f;
-}
-
-.txt-riley-yellow {
-  color: #ffbd1f;
+  color: #3eac6d;
 }
 
 .txt-riley-orange {
-  color: #ff921f;
+  color: #ed7058;
 }
 
-.bg-riley-blue {
-  background-color: #1b89af;
-  color: rgba(255, 255, 255, 0.87); 
+.txt-riley-blue {
+  color: #298ebf;
 }
 
-.bg-riley-red {
-  background-color: #e53935;
+.txt-riley-accent {
+  color: #933d60;
+}
+
+.bg-riley-main {
+  background-color: #154a84;
   color: rgba(255, 255, 255, 0.87); 
 }
 
 .bg-riley-green {
-  background-color: #22bc9f;
-  color: rgba(255, 255, 255, 0.87); 
-}
-
-.bg-riley-yellow {
-  background-color: #ffbd1f;
+  background-color: #3eac6d;
   color: rgba(255, 255, 255, 0.87); 
 }
 
 .bg-riley-orange {
-  background-color: #ff921f;
+  background-color: #ed7058;
+  color: rgba(255, 255, 255, 0.87); 
+}
+
+.bg-riley-blue {
+  background-color: #298ebf;
+  color: rgba(255, 255, 255, 0.87); 
+}
+
+.bg-riley-accent {
+  background-color: #933d60;
   color: rgba(255, 255, 255, 0.87); 
 }
 
@@ -5793,21 +5797,21 @@ textarea.md-input {
 .blue-bottom-border {
   padding: 0.25em;
   background-color: #e4e4e4;
-  border-bottom: 12px solid #1b89af;
+  border-bottom: 12px solid #154a84;
   color: rgba(0, 0, 0, 0.87); 
 }
 
 .blue-left-border {
   padding: 0.25em;
   background-color: #e4e4e4;
-  border-left: 4px solid #1b89af;
+  border-left: 4px solid #154a84;
   color: rgba(0, 0, 0, 0.87); 
 }
 
 .blue-right-border {
   padding: 0.25em;
   background-color: #e4e4e4;
-  border-right: 4px solid #1b89af;
+  border-right: 4px solid #154a84;
   color: rgba(0, 0, 0, 0.87); 
 }
 

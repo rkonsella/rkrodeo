@@ -22,7 +22,7 @@
             'ui.jp',
             'oc.lazyLoad'
         ])
-        .controller('HomeCtrl', ['$scope', HomeCtrl]);
+        // .controller('HomeCtrl', ['$scope', HomeCtrl]);
         ;
 
 
