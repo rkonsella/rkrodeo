@@ -5806,4 +5806,5 @@ textarea.md-input {
   vertical-align: middle;
   border-radius: 50%; /* may require vendor prefixes */
   background: yellow;
+  padding: 10%;
 }
