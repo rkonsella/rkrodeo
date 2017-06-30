@@ -5799,13 +5799,11 @@ textarea.md-input {
 }
 
 .where-circle {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: #fff;
-  line-height: 500px;
+  height: 100px;
+  width: 100px;
+  display: table-cell;
   text-align: center;
   vertical-align: middle;
-  background: #000
+  border-radius: 50%; /* may require vendor prefixes */
+  background: yellow;
 }
