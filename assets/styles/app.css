@@ -5806,6 +5806,6 @@ textarea.md-input {
   color: #fff;
   line-height: 500px;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
   background: #000
 }
