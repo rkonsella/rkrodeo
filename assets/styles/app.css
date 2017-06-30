@@ -5798,33 +5798,13 @@ textarea.md-input {
   border-color: #3eac6d;
 }
 
-.blue-bottom-border {
-  padding: 0.25em;
-  background-color: #e4e4e4;
-  border-bottom: 12px solid #154a84;
-  color: rgba(0, 0, 0, 0.87); 
-}
-
-.blue-left-border {
-  padding: 0.25em;
-  background-color: #e4e4e4;
-  border-left: 4px solid #154a84;
-  color: rgba(0, 0, 0, 0.87); 
-}
-
-.blue-right-border {
-  padding: 0.25em;
-  background-color: #e4e4e4;
-  border-right: 4px solid #154a84;
-  color: rgba(0, 0, 0, 0.87); 
-}
-
-.border-grey {
- padding: 0.125em;
-  background-color: #e4e4e4;
-  border-left: 12px solid #a4a4a4;
-  border-right: 12px solid #a4a4a4;
-  border-bottom: 12px solid #a4a4a4;
-  border-top: 24px solid #a4a4a4;
-  color: rgba(0, 0, 0, 0.87); }
+.where-circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 500px;
+  text-align: center;
+  background: #000
 }
