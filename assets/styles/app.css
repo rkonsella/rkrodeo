@@ -911,7 +911,7 @@ a.list-group-item {
     text-decoration: none; }
   .navbar-brand img,
   .navbar-brand svg {
-    max-height: 24px;
+    max-height: 400px;
     vertical-align: -4px;
     display: inline-block; }
   .navbar-brand > span {
