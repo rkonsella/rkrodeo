@@ -5798,13 +5798,13 @@ textarea.md-input {
   border-color: #3eac6d;
 }
 
-.where-circle {
-  height: 100px;
-  width: 100px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%; /* may require vendor prefixes */
-  background: yellow;
-  padding: 10%;
+.where-circle{
+position: relative;
+width: 50%;     /* desired width */
+}
+
+.whre-circle:before{
+content: "";
+display: block;
+padding-top: 100%;  /* initial ratio of 1:1*/
 }
