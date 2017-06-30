@@ -5794,6 +5794,10 @@ textarea.md-input {
   border: 1px solid rgba(255, 255, 255, 0.87);
 }
 
+.border-riley-green {
+  border-color: #3eac6d;
+}
+
 .blue-bottom-border {
   padding: 0.25em;
   background-color: #e4e4e4;
