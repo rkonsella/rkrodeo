@@ -1862,8 +1862,8 @@ body {
   width: 14px;
   height: 14px;
   border: solid 2px transparent;
-  border-top-color: #0cc2aa;
-  border-left-color: #0cc2aa;
+  border-top-color: #3eac6d;
+  border-left-color: #3eac6d;
   border-radius: 10px;
   -webkit-animation: loading-bar-spinner 400ms linear infinite;
   -moz-animation: loading-bar-spinner 400ms linear infinite;
