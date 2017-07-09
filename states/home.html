@@ -16,7 +16,7 @@
           <div class="where-circle bg-riley-green">
             <div class="" style="cursor: pointer;" href="https://www.google.com/maps/place/Schenectady,+NY/@42.8035432,-74.0081834,12z/data=!3m1!4b1!4m5!3m4!1s0x89de6dfd3575f8a5:0x19b2708d6f12b27a!8m2!3d42.8142921!4d-73.9397049">
               <p class="h5 text-muted l-h" ng-model="count" href="http://www.google.com">
-                {{ count }}
+                {{ this.location.city }}
               </p>
               <p class="h2 l-h">
                 CT, USA
@@ -27,12 +27,6 @@
       </div>
     </div>
   </div>
-
-
-        <button class="btn" ng-model="ctrl.count"
-                            ng-click="ctrl.increment()">
-        Click to increment</button>
-        {{ ctrl.count }}
 
   <div class="container m-t-lg m-b-md">
     <h5 class="text-muted m-b-lg">

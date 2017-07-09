@@ -68,10 +68,11 @@
     });
 
     app.controller("HomeCtrl", function () {
-        this.count = 0;
-        this.increment = function () {
-            this.count = this.count + 1;
-        }
+        this.location = {
+            city: "Clinton",
+            state: "CT",
+            country: "USA"
+        };
     });
 
 })();
