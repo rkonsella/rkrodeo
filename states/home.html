@@ -1,4 +1,4 @@
-<!--<div ng-app="HomeCtrl">-->
+  <div ng-controller="FirstCtrl as app1">
   <div class="p-t-lg">
     <div class="row-col text-center">
       <div class="col-md-8 border-grey v-m p-a-md">
@@ -28,19 +28,11 @@
     </div>
   </div>
 
-  <div ng-controller="FirstCtrl as app1">
+
         <button class="btn" ng-model="app1.count"
                             ng-click="app1.increment()">
         Click to increment</button>
         {{ app1.count }}
-    </div>
-
-    <div ng-controller="SecondCtrl">
-        <button class="btn" ng-model="count"
-                            ng-click="increment()">
-        Click to increment</button>
-        {{ count }}
-    </div>
 
   <div class="container m-t-lg m-b-md">
     <h5 class="text-muted m-b-lg">
