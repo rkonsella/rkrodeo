@@ -28,7 +28,14 @@
     </div>
   </div>
 
-  <div ng-controller="SecondCtrl">
+  <div ng-controller="FirstCtrl as app1">
+        <button class="btn" ng-model="app1.count"
+                            ng-click="app1.increment()">
+        Click to increment</button>
+        {{ app1.count }}
+    </div>
+
+    <div ng-controller="SecondCtrl">
         <button class="btn" ng-model="count"
                             ng-click="increment()">
         Click to increment</button>
