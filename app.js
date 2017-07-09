@@ -28,6 +28,22 @@
 
     var app = angular.module('rodeo', ['ui.router']);
 
+    
+
+app.controller("FirstCtrl",function () {
+    this.count = 0;
+    this.increment = function (){
+        this.count = this.count + 1;
+    }
+});
+
+function SecondCtrl($scope){
+    $scope.count = 0;
+    $scope.increment = function (){
+        $scope.count = $scope.count + 1;
+    }
+}
+
     app.config(function ($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider.otherwise('/parked');
