@@ -26,9 +26,9 @@
         ;
 
 
-    var routerApp = angular.module('rodeo', ['ui.router']);
+    var app = angular.module('rodeo', ['ui.router']);
 
-    routerApp.config(function ($stateProvider, $urlRouterProvider) {
+    app.config(function ($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider.otherwise('/parked');
 
