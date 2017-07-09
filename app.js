@@ -65,12 +65,6 @@
                 url: '/contact',
                 templateUrl: 'states/contact.html'
             });
-
-            // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
-            // .state('about', {
-            //     // we'll get to this in a bit       
-            // });
-
     });
 
 
