@@ -1,4 +1,4 @@
-<div ng-controller="HomeCtrl">
+<!--<div ng-controller="HomeCtrl">-->
   <div class="p-t-lg">
     <div class="row-col text-center">
       <div class="col-md-8 border-grey v-m p-a-md">
@@ -27,6 +27,13 @@
       </div>
     </div>
   </div>
+
+  <div ng-controller="HomeCtrl">
+        <button class="btn" ng-model="count"
+                            ng-click="increment()">
+        Click to increment</button>
+        {{ count }}
+    </div>
 
   <div class="container m-t-lg m-b-md">
     <h5 class="text-muted m-b-lg">
