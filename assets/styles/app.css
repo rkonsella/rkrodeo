@@ -5799,10 +5799,11 @@ textarea.md-input {
 }
 
 .where-container{
-width: 100%;
+  width: 100%;
 }
 
 .where-circle{
+  vertical-align: middle;
   border-radius: 50%;
   width: 100%;
   padding-bottom: 100%;
