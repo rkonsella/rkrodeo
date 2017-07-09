@@ -5815,9 +5815,6 @@ textarea.md-input {
   -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
           box-shadow: 0 @shadow-length 0 0 @shadow;
   text-shadow: 0 @shadow-length 0 @shadow;
-  background: #38a9e4;
-  color: white;
-  font-family: Helvetica, Arial Black, sans;
-  font-size: 48px;
+  font-size: calc(0.75em + 1vmin);
   text-align: center;
 }
