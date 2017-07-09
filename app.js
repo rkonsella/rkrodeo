@@ -27,7 +27,7 @@
 
 
     var app = angular.module('rodeo', ['ui.router']);
-    
+
     app.config(function ($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider.otherwise('/parked');
@@ -67,11 +67,11 @@
             });
     });
 
+    app.controller("HomeCtrl", function () {
+        this.count = 0;
+        this.increment = function () {
+            this.count = this.count + 1;
+        }
+    });
 
 })();
-function HomeCtrl($scope){
-    $scope.count = 0;
-    $scope.increment = function (){
-        $scope.count = $scope.count + 1;
-    }
-}
