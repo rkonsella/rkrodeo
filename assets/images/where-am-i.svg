@@ -2,7 +2,12 @@
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 452.5 226.4" style="enable-background:new 0 0 452.5 226.4;" xml:space="preserve">
-<style type="text/css">
+<style type="text/css"><![CDATA[
+      @font-face {
+        font-family: 'Lato';
+        src: url('https://fonts.googleapis.com/css?family=Lato:400,100,300,500,700,900');      }
+      text { font-family: Lato, sans-serif;}
+      ]]>
 	.st0{fill:#933D60;}
 	.st1{fill:#ED7058;}
 	.st2{fill:#298EBF;}
