@@ -7,11 +7,11 @@
 	.st1{opacity:0.25;}
 	.st2{fill:#D8D8D8;}
 	.st3{fill:none;}
-	.st4{font-family:'Lato-Medium';}
+	.st4{font-family:'Lato';}
 	.st5{font-size:18px;}
-	.st6{font-family:'Lato-Regular';}
+	.st6{font-family:'Lato';}
 	.st7{font-size:26px;}
-	.st8{font-family:'Lato-Thin';}
+	.st8{font-family:'Lato';}
 	.st9{font-size:22px;}
 	.st10{display:none;opacity:0.25;}
 	.st11{display:inline;fill:#D8D8D8;}
