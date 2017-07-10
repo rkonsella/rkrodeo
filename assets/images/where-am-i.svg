@@ -11,14 +11,13 @@
 	.st5{opacity:0.25;}
 	.st6{fill:#D8D8D8;}
 	.st7{fill:none;}
-	.st8{font-family:'Lato';}
-	.st9{font-size:15px;}
-	.st10{font-family:'Lato';}
-	.st11{font-size:36px;}
-	.st12{font-family:'Lato';}
-	.st13{font-size:20px;}
-	.st14{display:none;opacity:0.25;}
-	.st15{display:inline;fill:#D8D8D8;}
+	.st8{font-family:'Lato-Regular';}
+	.st9{font-size:14px;}
+	.st10{opacity:0.9;}
+	.st11{font-size:23px;}
+	.st12{font-size:18px;}
+	.st13{display:none;opacity:0.25;}
+	.st14{display:inline;fill:#D8D8D8;}
 </style>
 <g id="Layer_2">
 	<g>
@@ -89,11 +88,11 @@
 			C299.5,80.5,299.5,91.4,299.5,102.3z"/>
 	</g>
 	<rect x="152.7" y="64.3" class="st7" width="146.8" height="38"/>
-	<text transform="matrix(1.0046 0 0 1 162.0833 75.8835)"><tspan x="0" y="0" class="st6 st8 st9">Where am I on my </tspan><tspan x="-6.1" y="18.8" class="st6 st8 st9">Watson Fellowship?</tspan></text>
+	<text transform="matrix(1.0046 0 0 1 169.1566 74.6189)"><tspan x="0" y="0" class="st6 st8 st9">Where am I on my </tspan><tspan x="-5.3" y="16.8" class="st6 st8 st9">Watson Fellowship?</tspan></text>
 	<rect x="148.5" y="120.6" class="st7" width="155.4" height="73.1"/>
-	<text transform="matrix(1.0046 0 0 1 184.2547 146.2932)"><tspan x="0" y="0" class="st6 st10 st11">Kigali</tspan><tspan x="3.3" y="27.2" class="st6 st12 st13">Rwanda</tspan></text>
-	<g class="st14">
-		<path class="st15" d="M423.1,118.1c-55.8,0-111.7,0-167.5,0c0,15.2,0,30.3,0,45.5c39.6,60.3,127.9,60.3,167.5,0
+	<text transform="matrix(1.0046 0 0 1 196.5242 137.5192)" class="st10"><tspan x="0" y="0" class="st6 st8 st11">Berlin</tspan><tspan x="-6.6" y="21.6" class="st6 st8 st12">Germany</tspan></text>
+	<g class="st13">
+		<path class="st14" d="M423.1,118.1c-55.8,0-111.7,0-167.5,0c0,15.2,0,30.3,0,45.5c39.6,60.3,127.9,60.3,167.5,0
 			C423.1,148.5,423.1,133.3,423.1,118.1z"/>
 	</g>
 </g>
