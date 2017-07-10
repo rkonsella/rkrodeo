@@ -5801,5 +5801,6 @@ textarea.md-input {
 .where-circle{
   display: block;
   margin: auto;
-  width: 80%
+  width: 50%;
+  padding-top: 5rem
 }
