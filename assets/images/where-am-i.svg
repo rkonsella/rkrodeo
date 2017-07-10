@@ -90,7 +90,7 @@
 	<rect x="152.7" y="64.3" class="st7" width="146.8" height="38"/>
 	<text transform="matrix(1.0046 0 0 1 169.1566 74.6189)"><tspan x="0" y="0" class="st6 st8 st9">Where am I on my </tspan><tspan x="-5.3" y="16.8" class="st6 st8 st9">Watson Fellowship?</tspan></text>
 	<rect x="148.5" y="120.6" class="st7" width="155.4" height="73.1"/>
-	<text transform="matrix(1.0046 0 0 1 196.5242 137.5192)" class="st10"><tspan x="0" y="0" class="st6 st8 st11">Copenhagen</tspan><tspan x="-6.6" y="21.6" class="st6 st8 st12">Denmark</tspan></text>
+	<text transform="matrix(1.0046 0 0 1 196.5242 137.5192)" class="st10"><tspan x="-10" y="0" class="st6 st8 st11">Copenhagen</tspan><tspan x="-6.6" y="21.6" class="st6 st8 st12">Denmark</tspan></text>
 	<g class="st13">
 		<path class="st14" d="M423.1,118.1c-55.8,0-111.7,0-167.5,0c0,15.2,0,30.3,0,45.5c39.6,60.3,127.9,60.3,167.5,0
 			C423.1,148.5,423.1,133.3,423.1,118.1z"/>
