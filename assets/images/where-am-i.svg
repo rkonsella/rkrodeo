@@ -1,32 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 226.4 226.4" style="enable-background:new 0 0 226.4 226.4;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 452.5 226.4" style="enable-background:new 0 0 452.5 226.4;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#02152A;}
-	.st1{opacity:0.25;}
-	.st2{fill:#D8D8D8;}
-	.st3{fill:none;}
-	.st4{font-family:'Lato';}
-	.st5{font-size:18px;}
-	.st6{font-family:'Lato';}
-	.st7{font-size:26px;}
-	.st8{font-family:'Lato';}
-	.st9{font-size:22px;}
-	.st10{display:none;opacity:0.25;}
-	.st11{display:inline;fill:#D8D8D8;}
+	.st0{fill:#933D60;}
+	.st1{fill:#ED7058;}
+	.st2{fill:#298EBF;}
+	.st3{fill:#3EAC6D;}
+	.st4{fill:#02152A;}
+	.st5{opacity:0.25;}
+	.st6{fill:#D8D8D8;}
+	.st7{fill:none;}
+	.st8{font-family:'Lato-Medium';}
+	.st9{font-size:18px;}
+	.st10{font-family:'Lato-Regular';}
+	.st11{font-size:40px;}
+	.st12{font-family:'Lato-Thin';}
+	.st13{font-size:26px;}
+	.st14{display:none;opacity:0.25;}
+	.st15{display:inline;fill:#D8D8D8;}
 </style>
-<circle class="st0" cx="113.2" cy="113.2" r="113.2"/>
-<g class="st1">
-	<path class="st2" d="M197,100.6c-55.8,0-111.7,0-167.5,0c0-12.5,0-25,0-37.4C69,2.9,157.4,2.9,197,63.2
-		C197,75.7,197,88.2,197,100.6z"/>
+<g id="Layer_2">
+	<g>
+		<path class="st0" d="M156.7,75.2c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C134.9,89.1,151.7,67.8,156.7,75.2z"/>
+	</g>
+	<g>
+		<path class="st1" d="M107.7,12.2C72.7,42.1,53.5,51.8,49.1,68.2c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C86,26.1,102.7,4.9,107.7,12.2z"/>
+	</g>
+	<g>
+		<path class="st1" d="M254.5,138.9c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C232.8,152.8,249.5,131.5,254.5,138.9z"/>
+	</g>
+	<g>
+		<path class="st2" d="M107.7,139.7c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C86,153.6,102.7,132.3,107.7,139.7z"/>
+	</g>
+	<g>
+		<path class="st3" d="M304.2,75.6c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C282.4,89.5,299.2,68.3,304.2,75.6z"/>
+	</g>
+	<g>
+		<path class="st2" d="M254.5,12.2c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C232.8,26.1,249.5,4.9,254.5,12.2z"/>
+	</g>
+	<g>
+		<path class="st1" d="M402.7,12.2c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C380.9,26.1,397.7,4.9,402.7,12.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M451.7,76.1c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C429.9,90,446.6,68.8,451.7,76.1z"/>
+	</g>
+	<g>
+		<path class="st2" d="M402.7,140.1c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C380.9,154,397.7,132.7,402.7,140.1z"/>
+	</g>
+	<g>
+		<path class="st3" d="M157.2,204.2c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C135.4,218.1,152.1,196.8,157.2,204.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M304.2,204.2c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C282.5,218.1,299.2,196.8,304.2,204.2z"/>
+	</g>
+	<g>
+		<path class="st3" d="M451.7,204.3c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C429.9,218.2,446.6,196.9,451.7,204.3z"/>
+	</g>
+	<g>
+		<path class="st2" d="M549.9,12.6c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C528.1,26.5,544.9,5.2,549.9,12.6z"/>
+	</g>
+	<g>
+		<path class="st1" d="M549.9,141.2c-35.1,29.9-54.2,39.6-58.6,55.9c-4.4-16.3-23.6-26-58.6-55.9c5-7.4,21.8,13.9,58.6,37
+			C528.1,155.1,544.9,133.8,549.9,141.2z"/>
+	</g>
 </g>
-<rect x="29.4" y="57.1" class="st3" width="167.5" height="43.5"/>
-<text transform="matrix(1 0 0 1 40.1425 70.4263)"><tspan x="0" y="0" class="st2 st4 st5">Where am I on my </tspan><tspan x="-7" y="21.6" class="st2 st4 st5">Watson Fellowship?</tspan></text>
-<rect x="24.5" y="127.6" class="st3" width="177.3" height="83.8"/>
-<text transform="matrix(1 0 0 1 82.0629 146.8068)"><tspan x="0" y="0" class="st2 st6 st7">Kigali</tspan><tspan x="-6.2" y="26.4" class="st2 st8 st9">Rwanda</tspan></text>
-<g class="st10">
-	<path class="st11" d="M197,118.1c-55.8,0-111.7,0-167.5,0c0,15.2,0,30.3,0,45.5c39.6,60.3,127.9,60.3,167.5,0
-		C197,148.5,197,133.3,197,118.1z"/>
+<g id="Layer_1">
+	<circle class="st4" cx="226.1" cy="113.2" r="113.2"/>
+	<g class="st5">
+		<path class="st6" d="M309.9,100.6c-55.8,0-111.7,0-167.5,0c0-12.5,0-25,0-37.4c39.6-60.3,127.9-60.3,167.5,0
+			C309.9,75.7,309.9,88.2,309.9,100.6z"/>
+	</g>
+	<rect x="142.4" y="57.1" class="st7" width="167.5" height="43.5"/>
+	<text transform="matrix(1 0 0 1 153.0559 70.4263)"><tspan x="0" y="0" class="st6 st8 st9">Where am I on my </tspan><tspan x="-7" y="21.6" class="st6 st8 st9">Watson Fellowship?</tspan></text>
+	<rect x="137.6" y="121.6" class="st7" width="177.3" height="83.8"/>
+	<text transform="matrix(1 0 0 1 178.3528 151.1315)"><tspan x="0" y="0" class="st6 st10 st11">Kigali</tspan><tspan x="3.7" y="31.2" class="st6 st12 st13">Rwanda</tspan></text>
+	<g class="st14">
+		<path class="st15" d="M423.1,118.1c-55.8,0-111.7,0-167.5,0c0,15.2,0,30.3,0,45.5c39.6,60.3,127.9,60.3,167.5,0
+			C423.1,148.5,423.1,133.3,423.1,118.1z"/>
+	</g>
 </g>
 </svg>
