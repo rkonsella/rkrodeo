@@ -17,7 +17,7 @@
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
     $rootScope.$on('$stateChangeSuccess', function () {
-      $document.body.scrollTop = $document.documentElement.scrollTop = 0;
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
     });
   }
 
