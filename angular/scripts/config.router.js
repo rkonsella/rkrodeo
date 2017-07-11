@@ -12,12 +12,12 @@
     .run(runBlock)
     .config(config);
 
-  runBlock.$inject = ['$rootScope', '$state', '$stateParams'];
+  runBlock.$inject = ['$rootScope', '$state', '$stateParams', '$document'];
   function runBlock($rootScope, $state, $stateParams) {
     $rootScope.$state = $state;
     $rootScope.$stateParams = $stateParams;
     $rootScope.$on('$stateChangeSuccess', function () {
-      document.body.scrollTop = document.documentElement.scrollTop = 0;
+      $document.body.scrollTop = $document.documentElement.scrollTop = 0;
     });
   }
 
