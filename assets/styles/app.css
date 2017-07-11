@@ -5808,7 +5808,5 @@ textarea.md-input {
 .it-me{
   display: block;
   margin: auto;
-  width: 60%;
-  padding-top: 3rem;
-  padding-bottom: 1rem
+  width: 100%;
 }
