@@ -30,7 +30,7 @@
 
     app.config(function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/parked');
+        $urlRouterProvider.otherwise('/home');
 
         $stateProvider
 
