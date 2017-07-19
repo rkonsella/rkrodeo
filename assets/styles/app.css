@@ -3776,8 +3776,9 @@ body {
 .p-t-1 {
   padding-top: 1rem !important;}
 
-.p-a-0 {
-  padding: 0rem !important; }
+.pm-a-0 {
+  padding: 0rem !important; 
+  margin: 0rem !important; }
 
 .padding {
   padding: 1.5rem 1.5rem; }
