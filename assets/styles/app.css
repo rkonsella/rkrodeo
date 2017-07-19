@@ -3773,6 +3773,9 @@ body {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important; }
 
+.p-t-1 {
+  padding-top: 0.1rem !important;}
+
 .p-a-0 {
   padding: 0rem !important; }
 
@@ -5804,6 +5807,5 @@ textarea.md-input {
 .top-page-pic{
   display: block;
   margin: auto;
-  width: 100%;
-  padding-top: 1rem
+  width: 100%
 }
