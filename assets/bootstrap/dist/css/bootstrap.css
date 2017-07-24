@@ -337,7 +337,7 @@ body {
   outline: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h0, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
 }
@@ -501,13 +501,17 @@ output {
   display: none !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h0, h1, h2, h3, h4, h5, h6,
+.h0 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: .5rem;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
+}
+
+h0 {
+  font-size: 4.5rem;
 }
 
 h1 {
@@ -532,6 +536,11 @@ h5 {
 
 h6 {
   font-size: 1rem;
+}
+
+
+.h0 {
+  font-size: 4.5rem;
 }
 
 .h1 {
