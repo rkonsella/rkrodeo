@@ -5818,5 +5818,7 @@ textarea.md-input {
 }
 
 .home-flag {
+  padding-left: .5rem;
+  padding-right: .5rem;
   height: 2.25rem
 }
