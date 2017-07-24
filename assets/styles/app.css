@@ -5816,3 +5816,7 @@ textarea.md-input {
   color: rgba(255, 255, 255, 0.87); 
   fill-opacity: 40%
 }
+
+.home-flag {
+  height: 2.25rem
+}
