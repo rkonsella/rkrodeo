@@ -5811,10 +5811,10 @@ textarea.md-input {
   width: 100%
 }
 
-.bg-header {
-  background-color: #154a84;
-  color: rgba(255, 255, 255, 0.87); 
-  fill-opacity: 40%
+.header-stripes { 
+  fill-opacity: 90%;
+  width: 100%;
+  height:.66rem
 }
 
 .home-flag {
