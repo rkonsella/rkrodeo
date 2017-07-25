@@ -67,7 +67,7 @@
             });
     });
 
-    var isCollapsed = true;
+    var isCollapsed = "this";
 
     app.controller("HomeCtrl", function () {
         this.location = {
