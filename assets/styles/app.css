@@ -5835,8 +5835,8 @@ h0 {
   left:0;
   right: 0;
   width: 80%;
-  background-color: rgba(21, 74, 132, .7);
-  color: rgba(255, 255, 255, 0.87); 
+  background-color: rgba(21, 74, 132, .75);
+  color: rgba(255, 255, 255, 1); 
   position: center
 }
 
