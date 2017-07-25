@@ -67,7 +67,10 @@
             });
     });
 
-    var isCollapsed = "this";
+    app.controller("GlobalCtrl", function () {
+        this.isCollapsed = "this";
+
+    });
 
     app.controller("HomeCtrl", function () {
         this.location = {
