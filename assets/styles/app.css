@@ -5843,3 +5843,12 @@ h0 {
 .outer-box {
   position: relative
 }
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  line-height: 200px;
+  text-align: center;
+  background: #000
+}
