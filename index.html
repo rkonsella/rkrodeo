@@ -31,15 +31,15 @@
 
 <body ng-app="rodeo">
   <div ng-controller="GlobalCtrl as globalCtrl">
-  <header>
-    <nav class="navbar navbar-md navbar-fixed-top bg-riley-main">
-      <div class="container">
-        <a data-toggle="collapse" data-target="#navbar-1" class="navbar-item pull-right bg-riley-main hidden-md-up m-a-0 m-l">
-            <i class="fa fa-bars"></i> {{isCollapsed}}something
+    <header>
+      <nav class="navbar navbar-md navbar-fixed-top bg-riley-main">
+        <div class="container">
+          <a class="navbar-item pull-right bg-riley-main hidden-md-up m-a-0 m-l" ng-init="globalCtrl.isCollapsed = false" ng-click="isCollapsed = !isCollapsed">
+            <i class="fa fa-bars"></i> {{globalCtrl.isCollapsed}}
           </a>
 
-        <!-- brand -->
-        <a class="navbar-brand md" href="https://www.rileykonsella.rodeo">
+          <!-- brand -->
+          <a class="navbar-brand md" href="https://www.rileykonsella.rodeo">
           <img src="assets/images/full-logo-2-01.png" alt="rileykonsella.rodeo" height="200">
           <!--<img src="assets/images/rk-logo-1-L-02.png" alt="rk logo" height="32">
           <img src="assets/images/rk-logo-1-L-03.png" alt="rk logo" height="32">
@@ -49,59 +49,59 @@
           <!--<span class="hidden-folded inline _300">rileykonsella.rodeo</span>-->
 
         </a>
-        <!-- / brand -->
-        <!-- navbar collapse -->
-        <div class="collapse navbar-toggleable-sm text-center" id="navbar-1">
-          <ul class="nav navbar-nav nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
-            <li class="nav-item">
-              <a class="nav-link" ui-sref="home">
+          <!-- / brand -->
+          <!-- navbar collapse -->
+          <div class="navbar-toggleable-sm text-center" ng-class="{collapse: isCollapsed}">
+            <ul class="nav navbar-nav nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
+              <li class="nav-item">
+                <a class="nav-link" ui-sref="home">
                   <span class="nav-text">Home</span> 
                 </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" ui-sref="about">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" ui-sref="about">
                   <span class="nav-text">About</span> 
                 </a>
-            </li>
-             <!-- <li class="nav-item">
-              <a class="nav-link" ui-sref="watson">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" ui-sref="watson">
                   <span class="nav-text">Watson</span> 
                 </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" ui-sref="projects">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" ui-sref="projects">
                   <span class="nav-text">Projects</span> 
                 </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" ui-sref="opinions">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" ui-sref="opinions">
                   <span class="nav-text">Very Correct&trade; Opinions</span> 
                 </a>
-            </li>  -->
-          </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- / navbar collapse -->
         </div>
-        <!-- / navbar collapse -->
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
 
-  <div class="page-content">
-    <div class="h-v light row-col">
-      <div class="row-cell v-m">
-        <div class="">
-          <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
-          <div ui-view></div>
+    <div class="page-content">
+      <div class="h-v light row-col">
+        <div class="row-cell v-m">
+          <div class="">
+            <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+            <div ui-view></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <footer class="bg-riley-main pos-rlt">
-    <div class="footer">
-      <div class="text-center container p-y-md">
-        <!--<div class="nav m-y text-primary-hover">
+    <footer class="bg-riley-main pos-rlt">
+      <div class="footer">
+        <div class="text-center container p-y-md">
+          <!--<div class="nav m-y text-primary-hover">
           <a class="nav-link m-x" href="#demos" ui-scroll-to="demos" >
             <span class="nav-text">Demos</span>
           </a>
@@ -115,69 +115,69 @@
             <span class="nav-text">Contact</span> 
           </a>
         </div>-->
-        <div class="block clearfix">
-          <a href="https://www.twitter.com/rileykonsella" class="btn btn-icon btn-social rounded btn-lg m-r-md">
+          <div class="block clearfix">
+            <a href="https://www.twitter.com/rileykonsella" class="btn btn-icon btn-social rounded btn-lg m-r-md">
             <i class="fa fa-twitter"></i>
             <i class="fa fa-twitter light-blue"></i>
           </a>
-          <a href="https://www.instagram.com/rileykonsella" class="btn btn-icon btn-social rounded btn-lg m-r-md">
+            <a href="https://www.instagram.com/rileykonsella" class="btn btn-icon btn-social rounded btn-lg m-r-md">
             <i class="fa fa-instagram"  aria-hidden="true"></i>
             <i class="fa fa-instagram instagram-red"  aria-hidden="true"></i>
           </a>
-          <a href="https://www.linkedin.com/in/rileykonsella/" class="btn btn-icon btn-social rounded btn-lg m-r-md">
+            <a href="https://www.linkedin.com/in/rileykonsella/" class="btn btn-icon btn-social rounded btn-lg m-r-md">
             <i class="fa fa-linkedin"></i>
             <i class="fa fa-linkedin linkedin-blue"></i>
           </a>
-          <a href="https://github.com/rkonsella/" class="btn btn-icon btn-social rounded btn-lg m-r-md">
+            <a href="https://github.com/rkonsella/" class="btn btn-icon btn-social rounded btn-lg m-r-md">
             <i class="fa fa-github"></i>
             <i class="fa fa-github deep-purple"></i>
           </a>
-          <a class="btn btn-icon btn-social rounded btn-lg" ui-sref="contact">
+            <a class="btn btn-icon btn-social rounded btn-lg" ui-sref="contact">
             <i class="fa fa-envelope"></i>
             <i class="fa fa-envelope red"></i>
           </a>
-        </div>
-      </div>
-      <div class="b b-b"></div>
-      <div class="p-a-xs">
-        <div class="row footer-bottom">
-          <div class="col-sm-8">
-            <small class="text-muted">rileykonsella.rodeo</small>
           </div>
-          <div class="col-sm-4">
-            <div class="text-sm-right text-xs-left">
-              <small class="text-muted"> June 2017</small>
+        </div>
+        <div class="b b-b"></div>
+        <div class="p-a-xs">
+          <div class="row footer-bottom">
+            <div class="col-sm-8">
+              <small class="text-muted">rileykonsella.rodeo</small>
+            </div>
+            <div class="col-sm-4">
+              <div class="text-sm-right text-xs-left">
+                <small class="text-muted"> June 2017</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
 
-  <!-- JAVASCRIPT HERE-->
+    <!-- JAVASCRIPT HERE-->
 
 
-  <script src="libs/jquery/jquery/dist/jquery.js"></script>
-  <!-- Bootstrap -->
-  <script src="libs/jquery/tether/dist/js/tether.min.js"></script>
-  <script src="libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="libs/jquery/PACE/pace.min.js"></script>
-  <!-- Angular -->
-  <script src="libs/angular/angular/angular.js"></script>
-  <script src="libs/angular/angular-animate/angular-animate.js"></script>
-  <script src="libs/angular/angular-resource/angular-resource.js"></script>
-  <script src="libs/angular/angular-sanitize/angular-sanitize.js"></script>
-  <script src="libs/angular/angular-touch/angular-touch.js"></script>
+    <script src="libs/jquery/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap -->
+    <script src="libs/jquery/tether/dist/js/tether.min.js"></script>
+    <script src="libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="libs/jquery/PACE/pace.min.js"></script>
+    <!-- Angular -->
+    <script src="libs/angular/angular/angular.js"></script>
+    <script src="libs/angular/angular-animate/angular-animate.js"></script>
+    <script src="libs/angular/angular-resource/angular-resource.js"></script>
+    <script src="libs/angular/angular-sanitize/angular-sanitize.js"></script>
+    <script src="libs/angular/angular-touch/angular-touch.js"></script>
 
 
-  <script src="libs/jquery/jquery/dist/jquery.js"></script>
-  <script src="libs/jquery/tether/dist/js/tether.min.js"></script>
-  <script src="libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="html/scripts/ui-scroll-to.js"></script>
-  <script src="libs/angular/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="libs/jquery/jquery/dist/jquery.js"></script>
+    <script src="libs/jquery/tether/dist/js/tether.min.js"></script>
+    <script src="libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="html/scripts/ui-scroll-to.js"></script>
+    <script src="libs/angular/angular-ui-router/release/angular-ui-router.js"></script>
 
-  <script src="app.js"></script>
+    <script src="app.js"></script>
 
 </body>
 
