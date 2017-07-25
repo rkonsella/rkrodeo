@@ -5831,7 +5831,16 @@ h0 {
 
 
 .project-box {
+    margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
   width: 80%;
   background-color: rgba(21, 74, 132, .1);
   color: rgba(0, 0, 0, 0.87); 
+  position: center
+}
+
+.outer-box {
+  position: relative
 }
