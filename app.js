@@ -67,6 +67,8 @@
             });
     });
 
+    var isCollapsed = true;
+
     app.controller("HomeCtrl", function () {
         this.location = {
             city: "Clinton",
