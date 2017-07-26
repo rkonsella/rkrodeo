@@ -5855,3 +5855,27 @@ h0 {
   padding-top: 25px;
   text-align: center;
 }
+
+.country-before {
+  margin: auto;  
+  left:0;
+  right: 0;
+  width: 67%;
+  background-color: rgba(21, 74, 132, .75);
+  color: rgba(255, 255, 255, .75); 
+  position: center
+}
+
+.country-after {
+  margin: auto;  
+  left:0;
+  right: 0;
+  width: 67%;
+  background-color: rgba(21, 74, 132, 1);
+  color: rgba(255, 255, 255, .87); 
+  position: center
+}
+
+p {
+  text-align: justify;
+}
