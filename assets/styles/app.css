@@ -5860,31 +5860,31 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 67%;
-  color: rgba(255, 255, 255, .75); 
+  width: 80%;
+  color: rgba(255, 255, 255, .66); 
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-  background-color: rgba(41, 142, 191, .7);
+  background-color: rgba(41, 142, 191, .4);
 }
 
 .other-country-before {
   margin: auto;  
   left:0;
   right: 0;
-  width: 67%;
-  color: rgba(255, 255, 255, .75); 
+  width: 80%;
+  color: rgba(255, 255, 255, .66); 
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-  background-color: rgba(62, 172, 109, .7);
+  background-color: rgba(62, 172, 109, .4);
 }
 
 .watson-country-after {
   margin: auto;  
   left:0;
   right: 0;
-  width: 67%;
+  width: 80%;
   color: rgba(255, 255, 255, .87); 
   text-align: center;
   line-height: 0rem;
@@ -5896,7 +5896,7 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 67%;
+  width: 80%;
   color: rgba(255, 255, 255, .87); 
   text-align: center;
   line-height: 0rem;
@@ -5910,4 +5910,8 @@ p {
 
 .justify {
   text-align: justify;
+}
+
+.no-height {
+  line-height: 0
 }
