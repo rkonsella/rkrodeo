@@ -5844,6 +5844,10 @@ h0 {
   position: relative
 }
 
+.inner-box {
+  margin: auto;
+}
+
 .circle {
   display: block;
   margin: auto;
