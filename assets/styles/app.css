@@ -5834,7 +5834,7 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 80%;
+  width: 85%;
   background-color: rgba(21, 74, 132, .75);
   color: rgba(255, 255, 255, 1); 
   position: center
@@ -5855,18 +5855,19 @@ h0 {
   padding-top: 25px;
   text-align: center;
 }
-
 .country-before {
   margin: auto;  
   left:0;
   right: 0;
   width: 67%;
-  background-color: rgba(21, 74, 132, .75);
   color: rgba(255, 255, 255, .75); 
-  position: center;    
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
+}.country-before watson{
+  background-color: rgba(41, 142, 191, .8);
+}.country-before other{
+  background-color: rgba(147, 61, 96, .8);
 }
 
 .country-after {
@@ -5874,12 +5875,14 @@ h0 {
   left:0;
   right: 0;
   width: 67%;
-  background-color: rgba(21, 74, 132, 1);
   color: rgba(255, 255, 255, .87); 
-  position: center;    
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
+}.country-after watson{
+  background-color: rgba(41, 142, 191, 1);
+}.country-after other{
+  background-color: rgba(147, 61, 96, 1);
 }
 
 p {
