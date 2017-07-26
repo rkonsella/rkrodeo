@@ -5855,7 +5855,8 @@ h0 {
   padding-top: 25px;
   text-align: center;
 }
-.country-before {
+
+.watson-country-before {
   margin: auto;  
   left:0;
   right: 0;
@@ -5864,13 +5865,22 @@ h0 {
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-}.country-before watson{
   background-color: rgba(41, 142, 191, .8);
-}.country-before other{
+}
+
+.other-country-before {
+  margin: auto;  
+  left:0;
+  right: 0;
+  width: 67%;
+  color: rgba(255, 255, 255, .75); 
+  text-align: center;
+  line-height: 0rem;
+  vertical-align: middle;
   background-color: rgba(147, 61, 96, .8);
 }
 
-.country-after {
+.watson-country-after {
   margin: auto;  
   left:0;
   right: 0;
@@ -5879,9 +5889,18 @@ h0 {
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-}.country-after watson{
   background-color: rgba(41, 142, 191, 1);
-}.country-after other{
+}
+
+.other-country-after {
+  margin: auto;  
+  left:0;
+  right: 0;
+  width: 67%;
+  color: rgba(255, 255, 255, .87); 
+  text-align: center;
+  line-height: 0rem;
+  vertical-align: middle;
   background-color: rgba(147, 61, 96, 1);
 }
 
