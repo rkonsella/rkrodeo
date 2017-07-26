@@ -5863,7 +5863,10 @@ h0 {
   width: 67%;
   background-color: rgba(21, 74, 132, .75);
   color: rgba(255, 255, 255, .75); 
-  position: center
+  position: center;    
+  text-align: center;
+  line-height: 0rem;
+  vertical-align: middle;
 }
 
 .country-after {
@@ -5873,7 +5876,10 @@ h0 {
   width: 67%;
   background-color: rgba(21, 74, 132, 1);
   color: rgba(255, 255, 255, .87); 
-  position: center
+  position: center;    
+  text-align: center;
+  line-height: 0rem;
+  vertical-align: middle;
 }
 
 p {
