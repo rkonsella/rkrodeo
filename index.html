@@ -34,7 +34,7 @@
     <header>
       <nav class="navbar navbar-md navbar-fixed-top bg-riley-main">
         <div class="container">
-          <a class="navbar-item pull-right bg-riley-main hidden-sm-up m-a-0 m-l" ng-init="globalCtrl.isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+          <a class="navbar-item pull-right bg-riley-main hidden-sm-up m-a-0 m-l" ng-init="globalCtrl.isCollapsed = true" ng-click="globalCtrl.isCollapsed = !isCollapsed">
             <i class="fa fa-bars"></i>
           </a>
 
@@ -51,7 +51,7 @@
         </a>
           <!-- / brand -->
           <!-- navbar collapse -->
-          <div class="navbar-collapse hidden-sm-up" ng-class="{collapse: isCollapsed}" ng-click="isCollapsed = true">
+          <div class="navbar-collapse hidden-sm-up" ng-class="{collapse: globalCtrl.isCollapsed}" ng-click="globalCtrl.isCollapsed = true">
             <!-- <div class="navbar-collapse"> -->
             <ul class="nav navbar-nav dropdown nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
               <li class="nav-item">
