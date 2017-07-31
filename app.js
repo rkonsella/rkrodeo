@@ -1,1 +1,54 @@
-(function(){'use strict';angular.module('rodeo',['ngAnimate','ngResource','ngSanitize','ngTouch','ngStorage','ngStore','ui.router','ui.utils','ui.load','ui.jp','oc.lazyLoad']);var app=angular.module('rodeo',['ui.router']);app.config(function($stateProvider,$urlRouterProvider){$urlRouterProvider.otherwise('/home');$stateProvider.state('parked',{url:'/parked',templateUrl:'states/parked.html'}).state('home',{url:'/home',templateUrl:'states/home.html',}).state('about',{url:'/about',templateUrl:'states/about.html'}).state('watson',{url:'/watson',templateUrl:'states/watson.html'}).state('projects',{url:'/projects',templateUrl:'states/projects.html'}).state('contact',{url:'/contact',templateUrl:'states/contact.html'});});app.controller("GlobalCtrl",function(){this.isCollapsed="this";});app.controller("HomeCtrl",function(){this.location={city:"Clinton",state:"CT",country:"USA"};});})();
+(function () {
+	'use strict';
+	angular.module('rodeo', [
+		'ngAnimate',
+		'ngResource',
+		'ngSanitize',
+		'ngTouch',
+		'ngStorage',
+		'ngStore',
+		'ui.router',
+		'ui.utils',
+		'ui.load',
+		'ui.jp',
+		'oc.lazyLoad']);
+	var app = angular.module('rodeo', ['ui.router']);
+	app.config(function ($stateProvider, $urlRouterProvider) {
+		$urlRouterProvider.otherwise('/home');
+		$stateProvider
+			.state('parked', {
+				url: '/parked',
+				templateUrl: 'states/parked.html'
+			})
+			.state('home', {
+				url: '/home',
+				templateUrl: 'states/home.html'
+			})
+			.state('about', {
+				url: '/about',
+				templateUrl: 'states/about.html'
+			})
+			.state('watson', {
+				url: '/watson',
+				templateUrl: 'states/watson.html'
+			})
+			.state('projects', {
+				url: '/projects',
+				templateUrl: 'states/projects.html'
+			})
+			.state('contact', {
+				url: '/contact',
+				templateUrl: 'states/contact.html'
+			})
+			.state('watson.germany', {
+				url: '/watson/germany',
+				templateUrl: 'states/countries/germany.html'
+			});
+	});
+	app.controller("GlobalCtrl", function () {
+		this.isCollapsed = "this";
+	});
+	app.controller("HomeCtrl", function () {
+	});
+})();
+
