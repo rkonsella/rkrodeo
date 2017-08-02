@@ -5925,3 +5925,7 @@ p {
 .no-height {
   line-height: 0
 }
+
+.width-80 {
+  width: 80%
+}
