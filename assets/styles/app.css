@@ -5807,6 +5807,12 @@ textarea.md-input {
   width: 100%
 }
 
+.in-page-pic{
+  display: block;
+  margin: auto;
+  width: 50%
+}
+
 .header-stripes { 
   width: 100%;
   height:.4rem
