@@ -40,8 +40,8 @@
 				url: '/contact',
 				templateUrl: 'states/contact.html'
 			})
-			.state('watson.germany', {
-				url: '/germany',
+			.state('germany', {
+				url: '/watson/germany',
 				templateUrl: 'states/countries/germany.html'
 			});
 	});
