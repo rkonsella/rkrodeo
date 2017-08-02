@@ -40,9 +40,13 @@
 				url: '/contact',
 				templateUrl: 'states/contact.html'
 			})
-			.state('germany', {
+			.state('watson.landing', {
+				url: '/watson/',
+				templateUrl: 'states/watson/landing.html'
+			})
+			.state('watson.germany', {
 				url: '/watson/germany',
-				templateUrl: 'states/countries/germany.html'
+				templateUrl: 'states/watson/countries/germany.html'
 			});
 	});
 	app.controller("GlobalCtrl", function () {
