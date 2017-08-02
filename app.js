@@ -40,7 +40,7 @@
 				url: '/contact',
 				templateUrl: 'states/contact.html'
 			})
-			.state('watson.germany', {
+			.state('.germany', {
 				url: '/germany',
 				templateUrl: 'states/countries/germany.html'
 			});
