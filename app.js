@@ -45,7 +45,7 @@
 				templateUrl: 'states/watson/landing.html'
 			})
 			.state('watson.germany', {
-				url: '/watson/germany',
+				url: '/germany',
 				templateUrl: 'states/watson/countries/germany.html'
 			});
 	});
