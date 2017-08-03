@@ -58,9 +58,9 @@
 	});
 	app.controller("HomeCtrl", function () {
 	});
-	app.controller("WatsonCtrl", function ($state) {
+	app.controller("WatsonCtrl", function ($scope,$state) {
 		var currentState = $state.current.name;
-		var testVal = "this is a string for testing";
+		var $scope.testVal = "this is a string for testing";
 
 		function test(){
 			console.log("test");
