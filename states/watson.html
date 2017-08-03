@@ -1,145 +1,177 @@
+<div ng-controller="WatsonCtrl as ctrl">
 
-<div class="row">
-	<div class="container">
-
-<!-- INJECTED CONTENT -->
-
-
-<div ui-view></div>
-
-		<div class="outer-box m-y-md">
-			<div class="project-box">
-				<div class="p-x-md p-t-md p-b-sm">
-					<h4><span class="_600">Stuck in Traffic: </span><span class="text-muted">Steering Offbeat Transportation Solutions through Human Pushback</h4>
-					<p>From cars and bicycles in Norway and Denmark to motorbikes and gondolas in Vietnam and Brazil, countries around the
-						world have distinct approaches to transportation. I will experience the nuances of these systems and how transportation
-						is evolving through the emergence of new technologies. Projects like self-driving cars in Singapore and autonomous
-						drones in Rwanda signal the beginning of rapid and controversial changes in transportation. My Watson Fellowship will
-						be spent investigating the fascinating ways in which governments solve traffic and transportation problems, and how
-						citizens react to these changes through advocacy or resistance.</p>
-				</div>
+	<div class="p-t-lg">
+		<div class="row-col p-t-1">
+			<div class="col-md-4 pm-a-0">
+				<img src="assets/images/{{watson}}/{{watson}}-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+			</div>
+			<div class="col-md-4 pm-a-0">
+				<img src="assets/images/{{watson}}/{{watson}}-3.jpg" alt="nyhavn bridge" class="top-page-pic">
+			</div>
+			<div class="col-md-4 pm-a-0">
+				<img src="assets/images/{{watson}}/{{watson}}-2.jpg" alt="denmark-museum" class="top-page-pic">
 			</div>
 		</div>
-		 <div class="row-col">	
-			<!-- <div class="col-sm-6">			
-				<div class="circle bg-riley-blue p-a-md m-y-sm">
-					<div class="text-2x">"Official" Watson Country</div>
+		<div class="header-stripes-mini bg-riley-blue">&nbsp;</div>
+		<div class="header-stripes-mini bg-riley-main">&nbsp;</div>
+	</div>
+
+	<h1 class="m-t-lg m-b-sm" ng-click="console.log(ctrl.currentState)">Thomas J. Watson Fellowship</h1>
+	<h5 class="text-muted m-b-sm justify">This fellowship is a one-of-a-kind opportunity for students graduating from college to spend a year traveling the world
+		and exploring a personal interest in the process. Read about the fellowship on the Watson Foundation's website
+		<a href="https://watson.foundation/fellowships/tj" class="txt-riley-blue">here</a>.
+	</h5>
+
+	<!-- tinypng.com, then resize to 16% -->
+	<img src="assets/images/maps/visited-denmark.png" alt="watson-map" class="top-page-pic p-t-sm p-b-md">
+
+
+	<div class="row">
+		<div class="container">
+
+			<!-- INJECTED CONTENT -->
+
+
+			<div ui-view></div>
+
+			<div class="outer-box m-y-md">
+				<div class="project-box">
+					<div class="p-x-md p-t-md p-b-sm">
+						<h4>
+							<span class="_600">Stuck in Traffic: </span>
+							<span class="text-muted">Steering Offbeat Transportation Solutions through Human Pushback
+						</h4>
+						<p>From cars and bicycles in Norway and Denmark to motorbikes and gondolas in Vietnam and Brazil, countries around the
+							world have distinct approaches to transportation. I will experience the nuances of these systems and how transportation
+							is evolving through the emergence of new technologies. Projects like self-driving cars in Singapore and autonomous
+							drones in Rwanda signal the beginning of rapid and controversial changes in transportation. My Watson Fellowship will
+							be spent investigating the fascinating ways in which governments solve traffic and transportation problems, and how
+							citizens react to these changes through advocacy or resistance.
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="circle bg-riley-green p-a-md m-y-sm">
-					<div class="text-2x">Other "Side-Trip" Country</div>
+			<div class="row-col">	
+				<!-- <div class="col-sm-6">			
+					<div class="circle bg-riley-blue p-a-md m-y-sm">
+						<div class="text-2x">"Official" Watson Country</div>
+					</div>
 				</div>
-			</div> -->
-			<h5 class="text-muted justify width-80 p-b-sm">
-				Below is the list of places I've visited and my planned future visits. When a box is fully colored, that means I've written a summary of the location if you 
-				click on the box. The <span class="_600 txt-riley-blue">light blue</span> countries are my "official" Watson countries,
-						and the ones colored <span class="_600 txt-riley-green">green</span> are other places I was lucky enough to visit.
+				<div class="col-sm-6">
+					<div class="circle bg-riley-green p-a-md m-y-sm">
+						<div class="text-2x">Other "Side-Trip" Country</div>
+					</div>
+				</div> -->
+				<h5 class="text-muted justify width-90 p-b-sm">
+					Below is the list of places I've visited and my planned future visits. When a box is fully colored, that means I've written a summary of the location if you 
+					click on the box. The <span class="_600 txt-riley-blue">light blue</span> countries are my "official" Watson countries,
+								and the ones colored <span class="_600 txt-riley-green">green</span> are other places I was lucky enough to visit.
 
-						</h5>
-				</div>
-				<div class="row-col">
-					<a ui-sref="watson.germany">
-						<div class="other-country-after p-a-md m-y-md">
-							<div class="text-muted text-md col-xs-3 no-height">
-								<span class="hidden-xs-down">Jul 14</span>
-							</div>
-							<h3 class="col-xs-6 no-height">Germany</h3>
-							<div class="text-muted text-md col-xs-3 no-height">
-								<span class="hidden-xs-down">Jul 21</span>
-							</div>
+				</h5>
+			</div>
+			<div class="row-col">
+				<a ui-sref="watson.germany">
+					<div class="other-country-after p-a-md m-y-md">
+						<div class="text-muted text-md col-xs-3 no-height">
+							<span class="hidden-xs-down">Jul 14</span>
 						</div>
-					</a>
-					<div class="watson-country-before p-a-md m-y-md">
+						<h3 class="col-xs-6 no-height">Germany</h3>
 						<div class="text-muted text-md col-xs-3 no-height">
 							<span class="hidden-xs-down">Jul 21</span>
 						</div>
-						<h3 class="col-xs-6 no-height">Denmark</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Aug 9</span>
-						</div>
 					</div>
-					<div class="other-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Aug 9</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Sweden</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Aug 19</span>
-						</div>
+				</a>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Jul 21</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Aug 19</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Netherlands</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Sep 5</span>
-						</div>
+					<h3 class="col-xs-6 no-height">Denmark</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Aug 9</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Sep 5</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Slovenia</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Sep 15</span>
-						</div>
+				</div>
+				<div class="other-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Aug 9</span>
 					</div>
-					<div class="other-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Sep 15</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Greece</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Sep 19</span>
-						</div>
+					<h3 class="col-xs-6 no-height">Sweden</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Aug 19</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Sep 19</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Rwanda</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Nov 9</span>
-						</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Aug 19</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Nov 9</span>
-						</div>
-						<h3 class="col-xs-6 no-height">TBD</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Dec 1</span>
-						</div>
+					<h3 class="col-xs-6 no-height">Netherlands</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Sep 5</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">Dec 1</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Singapore</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">TBD</span>
-						</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Sep 5</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">TBD</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Vietnam</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">TBD</span>
-						</div>
+					<h3 class="col-xs-6 no-height">Slovenia</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Sep 15</span>
 					</div>
-					<div class="watson-country-before p-a-md m-y-md">
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">TBD</span>
-						</div>
-						<h3 class="col-xs-6 no-height">Brazil</h3>
-						<div class="text-muted text-md col-xs-3 no-height">
-							<span class="hidden-xs-down">TBD</span>
-						</div>
+				</div>
+				<div class="other-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Sep 15</span>
+					</div>
+					<h3 class="col-xs-6 no-height">Greece</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Sep 19</span>
+					</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Sep 19</span>
+					</div>
+					<h3 class="col-xs-6 no-height">Rwanda</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Nov 9</span>
+					</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Nov 9</span>
+					</div>
+					<h3 class="col-xs-6 no-height">TBD</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Dec 1</span>
+					</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">Dec 1</span>
+					</div>
+					<h3 class="col-xs-6 no-height">Singapore</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">TBD</span>
+					</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">TBD</span>
+					</div>
+					<h3 class="col-xs-6 no-height">Vietnam</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">TBD</span>
+					</div>
+				</div>
+				<div class="watson-country-before p-a-md m-y-md">
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">TBD</span>
+					</div>
+					<h3 class="col-xs-6 no-height">Brazil</h3>
+					<div class="text-muted text-md col-xs-3 no-height">
+						<span class="hidden-xs-down">TBD</span>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>

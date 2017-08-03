@@ -5870,7 +5870,7 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 75%;
+  width: 80%;
   color: rgba(255, 255, 255, .66); 
   text-align: center;
   line-height: 0rem;
@@ -5882,7 +5882,7 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 75%;
+  width: 80%;
   color: rgba(255, 255, 255, .66); 
   text-align: center;
   line-height: 0rem;
@@ -5894,7 +5894,7 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 75%;
+  width: 80%;
   color: rgba(255, 255, 255, .87); 
   text-align: center;
   line-height: 0rem;
@@ -5906,7 +5906,7 @@ h0 {
   margin: auto;  
   left:0;
   right: 0;
-  width: 75%;
+  width: 80%;
   color: rgba(255, 255, 255, .87); 
   text-align: center;
   line-height: 0rem;
@@ -5926,7 +5926,7 @@ p {
   line-height: 0
 }
 
-.width-80 {
-  width: 75%;
+.width-90 {
+  width: 90;
   margin: auto;
 }
