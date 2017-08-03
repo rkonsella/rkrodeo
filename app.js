@@ -53,11 +53,13 @@
 		function globalTest(){
 			console.log("im making a test");
 		}
+		var testVal = "this ifsasf";
 	});
 	app.controller("HomeCtrl", function () {
 	});
 	app.controller("WatsonCtrl", function ($state) {
 		var currentState = $state.current.name;
+		var testVal = "this is a string for testing";
 
 		function test(){
 			console.log("test");
