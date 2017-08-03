@@ -55,10 +55,10 @@
 	app.controller("HomeCtrl", function () {
 	});
 	app.controller("WatsonCtrl", function ($scope,$state) {
-		this.currentState = $state.current.name;
+		this.currentState = $state.current;
 		this.testVal = "this is a string for testing";
 
-		this.test = function(){
+		this.stateName = function(){
 			console.log("test");
 			console.log(this.currentState);
 			console.log();
