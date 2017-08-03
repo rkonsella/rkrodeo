@@ -55,7 +55,7 @@
 	app.controller("HomeCtrl", function () {
 	});
 	app.controller("WatsonCtrl", function ($state) {
-		currentState = $state.current.name;
+		var currentState = $state.current.name;
 	});
 })();
 
