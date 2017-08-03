@@ -55,13 +55,17 @@
 	app.controller("HomeCtrl", function () {
 	});
 	app.controller("WatsonCtrl", function ($scope,$state) {
-		this.currentState = $state.current;
+		this.currentState = $state.current.name;
 		this.testVal = "this is a string for testing";
 
 		this.stateName = function(){
-			console.log("test");
-			console.log(this.currentState);
-			console.log();
+			var name = this.currentState;
+			name = str.slice(7);
+			if (name == "landing"){
+				name = "watson";
+			}
+			console.log(name);
+			return(name);
 
 		}
 	});
