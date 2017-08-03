@@ -50,7 +50,9 @@
 			});
 	});
 	app.controller("GlobalCtrl", function () {
-		this.isCollapsed = "this";
+		function globalTest(){
+			console.log("im making a test");
+		}
 	});
 	app.controller("HomeCtrl", function () {
 	});
