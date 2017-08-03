@@ -60,7 +60,7 @@
 
 		this.test = function(){
 			console.log("test");
-			console.log(currentState);
+			console.log(this.currentState);
 			console.log();
 
 		}
