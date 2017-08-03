@@ -56,6 +56,13 @@
 	});
 	app.controller("WatsonCtrl", function ($state) {
 		var currentState = $state.current.name;
+
+		function test(){
+			console.log("test");
+			console.log(currentState);
+			console.log();
+
+		}
 	});
 })();
 
