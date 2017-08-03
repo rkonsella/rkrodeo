@@ -57,7 +57,6 @@
 	app.controller("WatsonCtrl", function ($scope,$state) {
 		this.currentState = $state.current.name;
 		this.testVal = "this is a string for testing";
-
 		this.stateName = function(){
 			var name = this.currentState;
 			name = str.slice(7);
@@ -66,8 +65,9 @@
 			}
 			console.log(name);
 			return(name);
-
 		}
+
+		this.imageURL = "assets/images/"+this.stateName()+"/"+this.stateName()+"-1.jpg";
 	});
 })();
 
