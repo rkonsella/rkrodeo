@@ -60,7 +60,8 @@
 	});
 	app.controller("WatsonCtrl", function ($scope,$state) {
 		var currentState = $state.current.name;
-		var $scope.testVal = "this is a string for testing";
+		this.testVal = "this is a string for testing";
+		$scope.testVal2 = "th2222ing";
 
 		function test(){
 			console.log("test");
