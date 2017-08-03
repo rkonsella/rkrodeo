@@ -30,7 +30,8 @@
 			})
 			.state('watson', {
 				url: '/watson',
-				templateUrl: 'states/watson.html'
+				templateUrl: 'states/watson.html',
+				controller: "WatsonCtrl as ctrl"
 			})
 			.state('projects', {
 				url: '/projects',
