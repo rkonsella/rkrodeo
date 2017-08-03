@@ -51,19 +51,14 @@
 			});
 	});
 	app.controller("GlobalCtrl", function () {
-		function globalTest(){
-			console.log("im making a test");
-		}
-		var testVal = "this ifsasf";
 	});
 	app.controller("HomeCtrl", function () {
 	});
 	app.controller("WatsonCtrl", function ($scope,$state) {
-		var currentState = $state.current.name;
+		this.currentState = $state.current.name;
 		this.testVal = "this is a string for testing";
-		$scope.testVal2 = "th2222ing";
 
-		function test(){
+		this.test = function(){
 			console.log("test");
 			console.log(currentState);
 			console.log();
