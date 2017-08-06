@@ -63,11 +63,9 @@
 			if (name == "landing"){
 				name = "watson";
 			}
-			console.log(name);
 			return(name);
-		}
-
-		this.imageURL = "assets/images/"+this.stateName()+"/"+this.stateName()+"-1.jpg";
+		};
+		this.twitterTest = '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">ME: sure, but how often do you come across a good peephole?<br><br>HER: I asked if you were a &quot;people&quot; person<br><br>ME: ohhh...definitely not</p>&mdash; Elvish Presley (@_ElvishPresley_) <a href="https://twitter.com/_ElvishPresley_/status/891379632112533505">July 29, 2017</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
 	});
 })();
 
