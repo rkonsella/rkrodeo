@@ -58,7 +58,6 @@
 	}]);
 	app.controller("GlobalCtrl", function ($scope,$state,$window) {
 		this.refreshPage = function () {
-			$state.go('watson.germany')
 			$state.reload();
 		};
 		this.topOfPage = function(){
