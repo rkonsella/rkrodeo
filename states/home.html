@@ -25,78 +25,92 @@
 
 
 
-    <div class="m-x-md">
+    <div class="container m-y-md">
 
-      <div class="row">
-        <div class="col-md-6 p-a-0">
-          <div class="outer-box">
-            <div class="home-box bg-muted-blue">
-              <h5>Here's a random tweet I really like:</h5>
-              <div class="top-page-pic">
-                <div ng-bind-html="ctrl.twitterTest | trust"></div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="p-a-0">
+            <div class="outer-box">
+              <div class="home-box bg-muted-blue">
+                <h5>Here's a random tweet I really like:</h5>
+                <div class="top-page-pic">
+                  <div ng-bind-html="ctrl.twitterTest | trust"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 p-a-0">
+        <div class="row">
           <div class="outer-box">
-            <div class="home-box bg-muted-accent">
-              <div class="row">
-                <div class="col-xs-4 p-a-0">
-                  <a href="https://www.youtube.com/watch?v=6GqgNebPm50">
-                    <img ng-src="assets/images/crack-up.jpg" alt="fleet foxes" class="top-page-pic">
-                  </a>
-                </div>
-                <div class="col-xs-4 p-a-0">
-                  <a href="https://www.youtube.com/watch?v=Chy1oeTjgLA">
-                    <img ng-src="assets/images/flower-boy.jpg" alt="tyler the creator" class="top-page-pic">
-                  </a>
-                </div>
-                <div class="col-xs-4 p-a-0">
-                  <a href="https://www.youtube.com/watch?v=ORlC78h_37U">
-                    <img ng-src="assets/images/i-had-a-dream-that-you-were-mine.jpg" alt="rostam and hamilton" class="top-page-pic">
-                  </a>
-                </div>
-              </div>
-              <h5>Here's the music I'm listening to right now.</h5>
+            <div class="home-box bg-muted-orange">
+              <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+              <h5>This was my senior research project at Union College.</h5>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5">
-          <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
-          <h5>This was my senior research project at Union College.</h5>
+        <div class="row">
+          <div class="outer-box">
+            <div class="home-box bg-muted-green">
+              <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+              <h5>Read about this Watson Fellowship thing I keep talking about</h5>
+            </div>
+          </div>
+
         </div>
-        <div class="col-md-5">
-          <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
-          <h5>This is my dog, Indie.</h5>
-        </div>
-        <div class="col-md-2">
-          <div class="block clearfix">
-            <h5>Contact me</h5>
-            <a class="btn btn-icon btn-social btn-sq m-x-sm" ui-sref="contact">
+        <div class="col-sm-6">
+          <div class="row">
+            <div class="outer-box">
+              <div class="home-box bg-muted-accent text-center">
+                <div class="row-col">
+                  <div class="col-xs-4 p-a-0">
+                    <a href="https://www.youtube.com/watch?v=6GqgNebPm50">
+                      <img ng-src="assets/images/crack-up.jpg" alt="fleet foxes" class="top-page-pic">
+                    </a>
+                  </div>
+                  <div class="col-xs-4 p-a-0">
+                    <a href="https://www.youtube.com/watch?v=Chy1oeTjgLA">
+                      <img ng-src="assets/images/flower-boy.jpg" alt="tyler the creator" class="top-page-pic">
+                    </a>
+                  </div>
+                  <div class="col-xs-4 p-a-0">
+                    <a href="https://www.youtube.com/watch?v=ORlC78h_37U">
+                      <img ng-src="assets/images/i-had-a-dream-that-you-were-mine.jpg" alt="rostam and hamilton" class="top-page-pic">
+                    </a>
+                  </div>
+                </div>
+                <h5>Here's the music I'm listening to right now.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+            <h5>This is my dog, Indie.</h5>
+          </div>
+          <div class="row">
+            <div class="block clearfix">
+              <h5>Contact me</h5>
+              <a class="btn btn-icon btn-social btn-sq m-x-sm" ui-sref="contact">
                 <i class="fa fa-envelope"></i>
                 <i class="fa fa-envelope red"></i>
               </a>
-            <h5>Read my resume</h5>
-            <a class="btn btn-icon btn-social btn-sq m-x-sm" type="submit" onclick="window.open('/assets/pdfs/konsella-resume.pdf')"
-              onmouseover="">
+              <h5>Read my resume</h5>
+              <a class="btn btn-icon btn-social btn-sq m-x-sm" type="submit" onclick="window.open('/assets/pdfs/konsella-resume.pdf')"
+                onmouseover="">
                 <i class="fa fa-file-text"></i>
                 <i class="fa fa-file-text bg-riley-blue"></i>
               </a>
+            </div>
+          </div>
+          <div class="row">
+            <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+            <h5>Check out the Insta</h5>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
-          <h5>Read about this Watson Fellowship thing I keep talking about</h5>
-        </div>
-        <div class="col-md-6">
-          <img ng-src="assets/images/watson/watson-1.jpg" alt="amsterdam bikes" class="top-page-pic">
-          <h5>Check out the Insta</h5>
-        </div>
+
+
+
+
+
       </div>
     </div>
   </div>
