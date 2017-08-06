@@ -62,6 +62,7 @@
 		};
 		this.topOfPage = function(){
 			$window.scrollTo(0, 0);
+			console.log("test");
 
 		}
 	});
@@ -78,7 +79,6 @@
 			if (name == "landing") {
 				name = "watson";
 			}
-			console.log("test");
 			return (name);
 		};
 	});
