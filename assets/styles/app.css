@@ -5966,3 +5966,7 @@ p {
 .bg-muted-orange{
 background-color: rgba(237, 112, 88, .6);
 }
+
+.text-unmuted {
+  opacity: 1;
+}
