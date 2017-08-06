@@ -77,6 +77,7 @@
 				name = "watson";
 			}
 			this.stateName = (name);
+			console.log("test");
 		};
 		this.refreshPics();
 	});
