@@ -239,7 +239,8 @@ sup {
   .btn-icon.btn-sq {
     width: 6rem;
     height: 3.167rem;
-    line-height: 3.167rem; }
+    line-height: 3.167rem;
+    font-size: 1.25rem }
   .btn-icon.btn-social i:last-child {
     top: 100%; }
   .btn-icon.btn-social:hover i:first-child,
