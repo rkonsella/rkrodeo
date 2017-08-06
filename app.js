@@ -64,16 +64,16 @@
 	app.controller("WatsonCtrl", function ($scope, $state) {
 		this.currentState = $state.current.name;
 		this.testVal = "this is a string for testing";
-		this.refreshPics = function () {
+		this.stateName = function () {
 			var name = this.currentState;
 			name = name.substring(7);
 			if (name == "landing") {
 				name = "watson";
 			}
-			this.stateName = (name);
 			console.log("test");
+			return (name);
 		};
-		this.refreshPics();
+		$route.reload();
 	});
 })();
 
