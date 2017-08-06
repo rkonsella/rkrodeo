@@ -55,6 +55,12 @@
 			return $sce.trustAsHtml(htmlCode);
 		}
 	}]);
+	app.filter('randomSrc', function () {
+		return function (input) {
+			if (input)
+				return input + '?r=' + Math.round(Math.random() * 999999);
+		}
+	});
 	app.controller("GlobalCtrl", function () {
 	});
 	app.controller("HomeCtrl", function () {
@@ -64,14 +70,15 @@
 	app.controller("WatsonCtrl", function ($scope, $state) {
 		this.currentState = $state.current.name;
 		this.testVal = "this is a string for testing";
-		this.stateName = function () {
+		this.refreshPics = function () {
 			var name = this.currentState;
 			name = name.substring(7);
 			if (name == "landing") {
 				name = "watson";
 			}
-			return (name);
+			this.stateName = (name);
 		};
+		this.refreshPics();
 	});
 })();
 
