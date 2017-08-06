@@ -56,7 +56,7 @@
 			return $sce.trustAsHtml(htmlCode);
 		}
 	}]);
-	app.controller("GlobalCtrl", function ($state,$window) {
+	app.controller("GlobalCtrl", function ($scope,$state,$window) {
 		this.refreshPage = function () {
 			$state.reload();
 		};
