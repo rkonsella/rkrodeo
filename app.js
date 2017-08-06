@@ -62,7 +62,7 @@
 		this.twitterTest = '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">ME: sure, but how often do you come across a good peephole?<br><br>HER: I asked if you were a &quot;people&quot; person<br><br>ME: ohhh...definitely not</p>&mdash; Elvish Presley (@_ElvishPresley_) <a href="https://twitter.com/_ElvishPresley_/status/891379632112533505">July 29, 2017</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>';
 		this.twitter2 = '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Interviewer: it says here your interests include connecting people <br><br>Me: correcting people, actually <br><br>I: no it&#39;s-<br><br>Me: i know what it says</p>&mdash; Max Haarhaus (@maxhaarhaus) <a href="https://twitter.com/maxhaarhaus/status/889459230499098624">July 24, 2017</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>';
 	});
-	app.controller("WatsonCtrl", function ($scope, $state, $route) {
+	app.controller("WatsonCtrl", function ($scope, $state) {
 		this.currentState = $state.current.name;
 		this.testVal = "this is a string for testing";
 		this.stateName = function () {
