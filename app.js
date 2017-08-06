@@ -56,9 +56,13 @@
 			return $sce.trustAsHtml(htmlCode);
 		}
 	}]);
-	app.controller("GlobalCtrl", function ($state) {
+	app.controller("GlobalCtrl", function ($state,$window) {
 		this.refreshPage = function () {
 			$state.reload();
+		};
+		this.topOfPage = function(){
+			$window.scrollTo(0, 0);
+
 		}
 	});
 	app.controller("HomeCtrl", function () {
