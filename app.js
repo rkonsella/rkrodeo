@@ -58,13 +58,12 @@
 	}]);
 	app.controller("GlobalCtrl", function ($state,$window) {
 		this.refreshPage = function () {
-			$state.reload();
+			setTimeout($state.reload(),100);
 		};
 		this.topOfPage = function(){
 			$window.scrollTo(0, 0);
 			console.log("test");
-
-		}
+}
 	});
 	app.controller("HomeCtrl", function () {
 		this.twitterTest = '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">ME: sure, but how often do you come across a good peephole?<br><br>HER: I asked if you were a &quot;people&quot; person<br><br>ME: ohhh...definitely not</p>&mdash; Elvish Presley (@_ElvishPresley_) <a href="https://twitter.com/_ElvishPresley_/status/891379632112533505">July 29, 2017</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>';
