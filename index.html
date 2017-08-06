@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title>RileyKonsella.rodeo</title>
-  <meta name="description" content="I made a website! Check it out, support me!"
-  />
+  <meta name="description" content="I made a website! Check it out, support me!" />
   <meta property="og:image" content="https://rileykonsella.rodeo/assets/images/about-2.jpg" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
@@ -29,16 +28,16 @@
 </head>
 
 <body ng-app="rodeo">
-   <!-- <div ng-controller="GlobalCtrl as globalCtrl">  -->
-    <header>
-      <nav class="navbar navbar-md navbar-fixed-top bg-riley-main">
-        <div class="container">
-          <a class="navbar-item pull-right bg-riley-main hidden-sm-up m-a-0 m-l" ng-init="globalCtrl.isCollapsed = true" ng-click="globalCtrl.isCollapsed = !globalCtrl.isCollapsed">
+  <!-- <div ng-controller="GlobalCtrl as globalCtrl">  -->
+  <header>
+    <nav class="navbar navbar-md navbar-fixed-top bg-riley-main">
+      <div class="container">
+        <a class="navbar-item pull-right bg-riley-main hidden-sm-up m-a-0 m-l" ng-init="globalCtrl.isCollapsed = true" ng-click="globalCtrl.isCollapsed = !globalCtrl.isCollapsed">
             <i class="fa fa-bars"></i>
           </a>
 
-          <!-- brand -->
-          <a class="navbar-brand md" href="https://www.rileykonsella.rodeo">
+        <!-- brand -->
+        <a class="navbar-brand md" href="https://www.rileykonsella.rodeo">
           <img src="assets/images/full-logo-2-01.png" alt="rileykonsella.rodeo" height="200">
           <!--<img src="assets/images/rk-logo-1-L-02.png" alt="rk logo" height="32">
           <img src="assets/images/rk-logo-1-L-03.png" alt="rk logo" height="32">
@@ -48,27 +47,27 @@
           <!--<span class="hidden-folded inline _300">rileykonsella.rodeo</span>-->
 
         </a>
-          <!-- / brand -->
-          <!-- navbar collapse -->
-          <div class="navbar-collapse hidden-sm-up" ng-class="{collapse: globalCtrl.isCollapsed}" ng-click="globalCtrl.isCollapsed = true">
-            <!-- <div class="navbar-collapse"> -->
-            <ul class="nav navbar-nav dropdown nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="home">
+        <!-- / brand -->
+        <!-- navbar collapse -->
+        <div class="navbar-collapse hidden-sm-up" ng-class="{collapse: globalCtrl.isCollapsed}" ng-click="globalCtrl.isCollapsed = true">
+          <!-- <div class="navbar-collapse"> -->
+          <ul class="nav navbar-nav dropdown nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="home">
                   <span class="nav-text">Home</span> 
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="about">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="about">
                   <span class="nav-text">About</span> 
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="watson.landing">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="watson.landing">
                   <span class="nav-text">Watson</span> 
                 </a>
-              </li>
-              <!--  <li class="nav-item">
+            </li>
+            <!--  <li class="nav-item">
                 <a class="nav-link" ui-sref="projects">
                   <span class="nav-text">Projects</span> 
                 </a>
@@ -78,54 +77,161 @@
                   <span class="nav-text">Very Correct&trade; Opinions</span> 
                 </a>
               </li> -->
-            </ul>
-          </div>
-          <!-- / navbar collapse -->
-            <div class="navbar-collapse hidden-xs-down">
-            <ul class="nav navbar-nav dropdown nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="home">
-                  <span class="nav-text">Home</span> 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="about">
-                  <span class="nav-text">About</span> 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="watson.landing">
-                  <span class="nav-text">Watson</span> 
-                </a>
-              </li>
-              <!--  <li class="nav-item">
-                <a class="nav-link" ui-sref="projects">
-                  <span class="nav-text">Projects</span> 
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" ui-sref="opinions">
-                  <span class="nav-text">Very Correct&trade; Opinions</span> 
-                </a>
-              </li> -->
-            </ul>
-          </div>
-
+          </ul>
         </div>
-      </nav>
-    </header>
+        <!-- / navbar collapse -->
+        <div class="navbar-collapse hidden-xs-down">
+          <ul class="nav navbar-nav dropdown nav-active-border top bg-riley-main border-riley-green pull-right m-r-lg">
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="home">
+                  <span class="nav-text">Home</span> 
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="about">
+                  <span class="nav-text">About</span> 
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="watson.landing">
+                  <span class="nav-text">Watson</span> 
+                </a>
+            </li>
+            <!--  <li class="nav-item">
+                <a class="nav-link" ui-sref="projects">
+                  <span class="nav-text">Projects</span> 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" ui-sref="opinions">
+                  <span class="nav-text">Very Correct&trade; Opinions</span> 
+                </a>
+              </li> -->
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
 
 
-    <div class="page-content">
-      <div class="h-v light row-col">
-        <div class="row-cell v-m">
-          <div class="">
-            <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
-            <div ui-view></div>
+  <div class="page-content">
+    <div class="h-v light row-col">
+      <div class="row-cell v-m">
+        <div class="">
+          <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+          <div ui-view></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row-col">
+        <a ui-sref="watson.germany">
+          <div class="other-country-after p-a-md m-y-md">
+            <div class="text-muted text-md col-xs-3 no-height">
+              <span class="hidden-xs-down">Jul 14</span>
+            </div>
+            <h3 class="col-xs-6 no-height">Germany</h3>
+            <div class="text-muted text-md col-xs-3 no-height">
+              <span class="hidden-xs-down">Jul 21</span>
+            </div>
+          </div>
+        </a>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Jul 21</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Denmark</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Aug 9</span>
+          </div>
+        </div>
+        <div class="other-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Aug 9</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Sweden</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Aug 19</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Aug 19</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Netherlands</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Sep 5</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Sep 5</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Slovenia</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Sep 15</span>
+          </div>
+        </div>
+        <div class="other-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Sep 15</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Greece</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Sep 19</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Sep 19</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Rwanda</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Nov 9</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Nov 9</span>
+          </div>
+          <h3 class="col-xs-6 no-height">TBD</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Dec 1</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">Dec 1</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Singapore</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">TBD</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">TBD</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Vietnam</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">TBD</span>
+          </div>
+        </div>
+        <div class="watson-country-before p-a-md m-y-md">
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">TBD</span>
+          </div>
+          <h3 class="col-xs-6 no-height">Brazil</h3>
+          <div class="text-muted text-md col-xs-3 no-height">
+            <span class="hidden-xs-down">TBD</span>
           </div>
         </div>
       </div>
     </div>
+
+
 
 
     <footer class="bg-riley-main pos-rlt">
@@ -183,7 +289,7 @@
         </div>
       </div>
     </footer>
-   <!-- </div> -->
+    <!-- </div> -->
 
     <!-- JAVASCRIPT HERE-->
 
