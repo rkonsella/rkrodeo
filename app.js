@@ -73,9 +73,9 @@
 			console.log("test");
 			return (name);
 		};
-		this.refreshPage = function ($route) {
-			$route.reload();
-		}
+		// this.refreshPage = function ($route) {
+		// 	$route.reload();
+		// }
 	});
 })();
 
