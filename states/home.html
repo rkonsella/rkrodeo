@@ -23,53 +23,122 @@
 
 
 
+
+
     <div class="container m-t-lg m-b-md">
-      <h3 class="m-b-md">This website is a little empty right now, but more is coming. </h3>
+
+      <div class="row-col">
+        <div class="text-center">
+          <div class="col-md-5">
+            <h5>Here's a random tweet I really like:</h5>
+            <div ng-bind-html="ctrl.twitterTest | trust"></div>
+          </div>
+          <div class="col-md-6">
+            <img ng-src="assets/images/{{ctrl.stateName()}}/{{ctrl.stateName()}}-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+            <h5>Here's the music I'm listening to right now.</h5>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+      <div class="row-col">
+        <div class="text-center">
+          <div class="col-md-9">
+            <div class="row-col">
+              <div class="col-md-2"></div>
+              <div class="col-md-5">
+                <img ng-src="assets/images/{{ctrl.stateName()}}/{{ctrl.stateName()}}-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+                <h5>Here's the music I'm listening to right now.</h5>
+              </div>
+              <div class="col-md-5">
+                <img ng-src="assets/images/{{ctrl.stateName()}}/{{ctrl.stateName()}}-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+                <h5>Here's the music I'm listening to right now.</h5>
+              </div>
+            </div>
+            <div class="row-col">
+              <div class="col-md-6">
+                <img ng-src="assets/images/{{ctrl.stateName()}}/{{ctrl.stateName()}}-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+                <h5>Here's the music I'm listening to right now.</h5>
+              </div>
+              <div class="col-md-6">
+                <img ng-src="assets/images/{{ctrl.stateName()}}/{{ctrl.stateName()}}-1.jpg" alt="amsterdam bikes" class="top-page-pic">
+                <h5>Here's the music I'm listening to right now.</h5>
+              </div>
+            </div>
+            <div class="col-md-3">
+              Contact me here or read my resume
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+      <!-- <h3 class="m-b-md">This website is a little empty right now, but more is coming. </h3>
       <h5 class="text-muted">I'm hoping to start writing about my Watson fellowship as it picks up in the coming weeks. Until then, hopefully I'll
         be posting pictures on Instagram; you can find the link for that below.</h5>
       <h5 class="text-muted">You can contact me at
-        <a href="mailto:rwkonsella@gmail.com"><strong>rwkonsella@gmail.com</strong></a>, or check out my résumé.</h5>
-    </div>
+        <a href="mailto:rwkonsella@gmail.com"><strong>rwkonsella@gmail.com</strong></a>, or check out my résumé.</h5> -->
 
 
-    <div class="pos-rlt" id="features">
-      <div class="h-v-5 row-col text-center">
-        <div class="col-sm-6 bg-riley-green v-m" onmouseover="" style="cursor: pointer;">
-          <a ui-sref="watson.landing">
+
+
+      <div class="pos-rlt" id="features">
+        <div class="h-v-5 row-col text-center">
+          <div class="col-sm-6 bg-riley-green v-m" onmouseover="" style="cursor: pointer;">
+            <a ui-sref="watson.landing">
+              <div class="p-a-lg">
+                <h2 class=" _700 l-s-n-1x m-y m-b-md">Thomas J. Watson Fellowship</h2>
+                <p class="h5 text-muted l-h">The Thomas J. Watson Fellowship is a one-year grant for purposeful, independent exploration outside the United
+                  States.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 bg-riley-orange v-m" onmouseover="" style="cursor: pointer;">
+            <a href="https://www.instagram.com/rileykonsella/">
+              <div class="p-a-lg">
+                <h2 class=" _700 l-s-n-1x m-y m-b-md">Instagram</h2>
+                <p class="h5 text-muted l-h">I'll be posting pictures from around the world as I travel on my fellowship, toss me a like if you can.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="h-v-5 row-col text-center">
+          <div class="col-sm-6 bg-riley-accent v-m" type="submit" onclick="window.open('/assets/pdfs/Konsella_SeniorProjectReport_FINAL.pdf')"
+            onmouseover="" style="cursor: pointer;">
             <div class="p-a-lg">
-              <h2 class=" _700 l-s-n-1x m-y m-b-md">Thomas J. Watson Fellowship</h2>
-              <p class="h5 text-muted l-h">The Thomas J. Watson Fellowship is a one-year grant for purposeful, independent exploration outside the United
-                States.
+              <h2 class=" _700 l-s-n-1x m-y m-b-md">Senior Project</h2>
+              <p class="h5 text-muted l-h">I spent a year designing and building a wireless prototype of a soft robot called a tensegrity for use in research
+                at Union College.
               </p>
             </div>
-          </a>
-        </div>
-        <div class="col-sm-6 bg-riley-orange v-m" onmouseover="" style="cursor: pointer;">
-          <a href="https://www.instagram.com/rileykonsella/">
-            <div class="p-a-lg">
-              <h2 class=" _700 l-s-n-1x m-y m-b-md">Instagram</h2>
-              <p class="h5 text-muted l-h">I'll be posting pictures from around the world as I travel on my fellowship, toss me a like if you can.</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="h-v-5 row-col text-center">
-        <div class="col-sm-6 bg-riley-accent v-m" type="submit" onclick="window.open('/assets/pdfs/Konsella_SeniorProjectReport_FINAL.pdf')"
-          onmouseover="" style="cursor: pointer;">
-          <div class="p-a-lg">
-            <h2 class=" _700 l-s-n-1x m-y m-b-md">Senior Project</h2>
-            <p class="h5 text-muted l-h">I spent a year designing and building a wireless prototype of a soft robot called a tensegrity for use in research
-              at Union College.
-            </p>
           </div>
-        </div>
-        <div class="col-sm-6 bg-riley-blue v-m" type="submit" onclick="window.open('/assets/pdfs/konsella-resume.pdf')" onmouseover=""
-          style="cursor: pointer;">
-          <div class="p-a-lg">
-            <h2 class=" _700 l-s-n-1x m-y m-b-md">Résumé</h2>
-            <p class="h5 text-muted l-h">Check out my résumé to learn about my project and work experience as well as my technical skills. </p>
+          <div class="col-sm-6 bg-riley-blue v-m" type="submit" onclick="window.open('/assets/pdfs/konsella-resume.pdf')" onmouseover=""
+            style="cursor: pointer;">
+            <div class="p-a-lg">
+              <h2 class=" _700 l-s-n-1x m-y m-b-md">Résumé</h2>
+              <p class="h5 text-muted l-h">Check out my résumé to learn about my project and work experience as well as my technical skills. </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
