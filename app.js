@@ -73,7 +73,7 @@
 			console.log("test");
 			return (name);
 		};
-		this.refreshPage = function () {
+		this.refreshPage = function ($route) {
 			$route.reload();
 		}
 	});
