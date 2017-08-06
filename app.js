@@ -58,7 +58,6 @@
 	}]);
 	app.controller("GlobalCtrl", function ($state,$window) {
 		this.refreshPage = function () {
-			// setTimeout($state.reload(),100);
 			$state.reload();
 		};
 		this.topOfPage = function(){
