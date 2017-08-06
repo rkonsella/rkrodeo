@@ -27,14 +27,16 @@
       <div class="col-md-6">
         <div class="row">
           <div class="outer-box">
-            <div class="home-box bg-riley-main">
-              <h5 class="text-center">Read about this Watson Fellowship thing I keep going on about</h5>
-              <img src="assets/images/maps/current.png" alt="watson-map" class="top-page-pic p-t-sm p-b-md">
-              <p class="text-muted m-a-0 p-a-0">
-                At the bottom of this page is my schedule of country visits. When a box is fully colored, click on the box to read my summary
-                of my visit to that country. The <span class="_600 text-unmuted txt-riley-blue">light blue</span>                countries are my "official" Watson countries, and the ones colored <span class="_600 text-unmuted txt-riley-green">green</span>                are other places I was lucky enough to visit.
-              </p>
-            </div>
+            <a ui-sref="watson">
+              <div class="home-box bg-riley-main">
+                <h5 class="text-center">Read about this Watson Fellowship thing I keep going on about</h5>
+                <img src="assets/images/maps/current.png" alt="watson-map" class="top-page-pic p-t-sm p-b-md">
+                <p class="text-muted m-a-0 p-a-0">
+                  At the bottom of this page is my schedule of country visits. When a box is fully colored, click on the box to read my summary
+                  of my visit to that country. The <span class="_600 text-unmuted txt-riley-blue">light blue</span>                  countries are my "official" Watson countries, and the ones colored <span class="_600 text-unmuted txt-riley-green">green</span>                  are other places I was lucky enough to visit.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
         <div class="row">
@@ -140,14 +142,14 @@
           <div class="outer-box">
             <div class="home-box bg-riley-main text-center">
               <div class="block clearfix">
-                <div class="col-sm-6">
+                <div class="col-xs-6">
                   <h5>Contact me</h5>
                   <a class="btn btn-icon btn-social btn-sq m-x-sm" ui-sref="contact">
                       <i class="fa fa-envelope"></i>
                       <i class="fa fa-envelope red"></i>
                     </a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-xs-6">
                   <h5>Résumé</h5>
                   <a class="btn btn-icon btn-social btn-sq m-x-sm" type="submit" onclick="window.open('/assets/pdfs/konsella-resume.pdf')"
                     onmouseover="">
