@@ -74,7 +74,7 @@
 			console.log("test");
 			return (name);
 		};
-		this.refreshPage = function ($state) {
+		this.refreshPage = function () {
 			$state.reload();
 		}
 	});
