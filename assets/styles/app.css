@@ -236,6 +236,10 @@ sup {
     width: 3.167rem;
     height: 3.167rem;
     line-height: 3.167rem; }
+  .btn-icon.btn-sq {
+    width: 6rem;
+    height: 3.167rem;
+    line-height: 3.167rem; }
   .btn-icon.btn-social i:last-child {
     top: 100%; }
   .btn-icon.btn-social:hover i:first-child,
