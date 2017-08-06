@@ -5855,8 +5855,10 @@ h0 {
   position: relative
 }
 
-.inner-box {
+.home-box {
   margin: auto;
+  padding: .5rem;
+  margin: .5rem;
 }
 
 .circle {
@@ -5936,18 +5938,18 @@ p {
   margin: auto;
 }
 
-.muted-bg-green{
+.bg-muted-green{
   background-color: rgba(62, 172, 109, .25);
 }
 
-.muted-bg-accent{
+.bg-muted-accent{
   background-color: rgba(147, 61, 96, .25);
 }
 
-.muted-bg-blue{
+.bg-muted-blue{
   background-color: rgba(41, 142, 191, .25);
 }
 
-.muted-bg-orange{
+.bg-muted-orange{
 background-color: rgba(237, 112, 88, .25);
 }
