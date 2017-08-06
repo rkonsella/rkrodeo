@@ -3,6 +3,7 @@
 	angular.module('rodeo', [
 		'ngAnimate',
 		'ngResource',
+		'ngRoute',
 		'ngSanitize',
 		'ngTouch',
 		'ngStorage',
