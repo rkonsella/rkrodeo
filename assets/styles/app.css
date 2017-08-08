@@ -5859,7 +5859,7 @@ h0 {
   margin: auto;
   padding: .5rem;
   margin: .5rem;
-  border-radius: 2%;
+  border-radius: 10px;
 }
 
 .circle {
@@ -5969,7 +5969,7 @@ background-color: rgba(237, 112, 88, .6);
 }
 
 .p-highlight {
-  border-radius: 13%;
+  border-radius: 5px;
   padding-left:.3rem;
   padding-right: .3rem;
   padding-bottom:.15rem
