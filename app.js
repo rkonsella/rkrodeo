@@ -88,3 +88,4 @@ console.log("executing app");
 	});
 })();
 
+console.log("executing app2");
