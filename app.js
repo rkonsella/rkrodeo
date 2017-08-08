@@ -1,3 +1,6 @@
+console.log("executing app");
+
+
 (function () {
 	'use strict';
 	angular.module('rodeo', [
