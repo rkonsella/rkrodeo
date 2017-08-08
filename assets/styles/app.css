@@ -5967,3 +5967,10 @@ background-color: rgba(237, 112, 88, .6);
 .text-unmuted {
   opacity: 1;
 }
+
+.p-highlight {
+  border-radius: 13%;
+  padding-left:.3rem;
+  padding-right: .3rem;
+  padding-bottom:.15rem
+}
