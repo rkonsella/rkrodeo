@@ -78,7 +78,7 @@
 		this.testVal = "this is a string for testing";
 		this.stateName = function () {
 			var name = this.currentState;
-			name = name.substring(7);
+			name = name.subString(7);
 			if (name == "landing") {
 				name = "watson";
 			}
