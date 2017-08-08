@@ -64,7 +64,6 @@
 		};
 		this.topOfPage = function () {
 			$window.scrollTo(0, 0);
-			console.log("test");
 		}
 
 	});
