@@ -56,14 +56,15 @@
 			return $sce.trustAsHtml(htmlCode);
 		}
 	}]);
-	app.controller("GlobalCtrl", function ($scope,$state,$window) {
+	app.controller("GlobalCtrl", function ($scope, $state, $window) {
 		this.refreshPage = function () {
 			$state.reload();
 		};
-		this.topOfPage = function(){
+		this.topOfPage = function () {
 			$window.scrollTo(0, 0);
 			console.log("test");
-}
+		}
+		w3.includeHTML();
 	});
 	app.controller("HomeCtrl", function () {
 		w3.includeHTML();
