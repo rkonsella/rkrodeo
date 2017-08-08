@@ -1,4 +1,3 @@
-console.log("executing app");
 
 
 (function () {
@@ -67,7 +66,7 @@ console.log("executing app");
 			$window.scrollTo(0, 0);
 			console.log("test");
 		}
-		
+
 	});
 	app.controller("HomeCtrl", function () {
 		w3.includeHTML();
@@ -83,9 +82,9 @@ console.log("executing app");
 			if (name == "landing") {
 				name = "watson";
 			}
+			console.log(name);
 			return (name);
 		};
 	});
 })();
 
-console.log("executing app2");
