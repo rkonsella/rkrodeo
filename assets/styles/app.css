@@ -5855,6 +5855,10 @@ h0 {
   position: relative
 }
 
+.inner-box {
+  margin: auto;
+}
+
 .home-box {
   margin: auto;
   padding: .5rem;
