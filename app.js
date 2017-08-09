@@ -78,9 +78,9 @@
 			'<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">Imagine being held at gunpoint (bear with me) by a literate animal, and the only hope of rescue is (BEAR WITH ME) tweeting a coded message</p>&mdash; Dennis Farrell (@DennisFarrell) <a href="https://twitter.com/DennisFarrell/status/857268898508541955">April 26, 2017</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>',
 			'<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">[beach]<br>Me: if a shark stops moving it will die<br>Wife: for the last time you can&#39;t kill a shark with a stop sign<br>Me: it&#39;s the law diane</p>&mdash; Fro Vo (@fro_vo) <a href="https://twitter.com/fro_vo/status/889486875869708288">July 24, 2017</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>'
 		];
-		min = Math.ceil(0);
-		max = Math.floor(this.tweets.length);
-		int = Math.floor(Math.random() * (max - min)) + min; 
+		var min = Math.ceil(0);
+		var max = Math.floor(this.tweets.length);
+		var int = Math.floor(Math.random() * (max - min)) + min; 
 		this.tweet = this.tweets[int];
 
 	});
