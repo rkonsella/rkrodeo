@@ -5902,11 +5902,12 @@ h0 {
   left:0;
   right: 0;
   width: 80%;
-  color: rgba(255, 255, 255, .66); 
+  color: rgba(41, 142, 191, .4); 
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-  background-color: rgba(41, 142, 191, .4);
+  border-style: solid;
+  border-color: rgba(41, 142, 191, .4);
 }
 
 .other-country-before {
@@ -5914,11 +5915,12 @@ h0 {
   left:0;
   right: 0;
   width: 80%;
-  color: rgba(255, 255, 255, .66); 
+  color: rgba(147, 61, 96, .35); 
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-  background-color: rgba(147, 61, 96, .35);
+  border-style: solid;
+  border-color: rgba(147, 61, 96, .35);
 }
 
 .watson-country-after {
@@ -5926,10 +5928,14 @@ h0 {
   left:0;
   right: 0;
   width: 80%;
-  color: rgba(255, 255, 255, .87); 
+  color: rgba(41, 142, 191, 1); 
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
+  border-style: solid;
+  border-color: rgba(41, 142, 191, 1);
+}.watson-country-after.active{
+  color:rgba(255, 255, 255, .87);
   background-color: rgba(41, 142, 191, 1);
 }
 
@@ -5938,11 +5944,15 @@ h0 {
   left:0;
   right: 0;
   width: 80%;
-  color: rgba(255, 255, 255, .87); 
+  color: rgba(147, 61, 96, 1); 
   text-align: center;
   line-height: 0rem;
   vertical-align: middle;
-  background-color:rgba(147, 61, 96, 1);
+  border-style: solid;
+  border-color:rgba(147, 61, 96, 1);
+}.other-country-after.active{
+  color:rgba(255, 255, 255, .87);
+  background-color: rgba(147, 61, 96, 1);
 }
 
 p {
