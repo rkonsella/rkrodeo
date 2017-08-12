@@ -5934,7 +5934,7 @@ h0 {
   vertical-align: middle;
   border-style: solid;
   border-color: rgba(41, 142, 191, 1);
-}.watson-country-after.active{
+}.watson-country-after:hover{
   color:rgba(255, 255, 255, .87);
   background-color: rgba(41, 142, 191, 1);
 }
@@ -5950,7 +5950,7 @@ h0 {
   vertical-align: middle;
   border-style: solid;
   border-color:rgba(147, 61, 96, 1);
-}.other-country-after.active{
+}.other-country-after:hover{
   color:rgba(255, 255, 255, .87);
   background-color: rgba(147, 61, 96, 1);
 }
