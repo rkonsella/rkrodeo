@@ -5822,6 +5822,14 @@ textarea.md-input {
   width: 100%;
   height:.4rem
 }
+
+.header-stripes-border { 
+  width: 100%;
+  height:.25rem;
+  padding: 0;
+  border-bottom: solid thin;
+}
+
 .header-stripes-mini { 
   width: 100%;
   height:.2rem
@@ -5986,10 +5994,6 @@ p {
 
 .bg-muted-orange{
 background-color: rgba(237, 112, 88, .6);
-}
-
-.text-unmuted {
-  opacity: 1;
 }
 
 .p-highlight {
