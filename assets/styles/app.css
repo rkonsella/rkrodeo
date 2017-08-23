@@ -5875,8 +5875,8 @@ h0 {
   border-width: thin;
 }
 
-.numbers-col {
-  border-left: solid thin;
+.numbers-flag {
+  font-size: 2rem;
 }
 
 .circle {
