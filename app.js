@@ -27,10 +27,6 @@
 				url: '/home',
 				templateUrl: 'states/home.html'
 			})
-			.state('alt-home', {
-				url: '/alt-home',
-				templateUrl: 'states/alt-home.html'
-			})
 			.state('about', {
 				url: '/about',
 				templateUrl: 'states/about.html'
