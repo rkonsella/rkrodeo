@@ -5837,11 +5837,10 @@ textarea.md-input {
 
 .home-flag {
   padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .4rem;
-    height: 2.5rem;
-    vertical-align: middle;
-
+  padding-right: 1rem;
+  padding-bottom: .4rem;
+  height: 2.5rem;
+  vertical-align: middle;
 }
 
 h0 {
@@ -5876,7 +5875,12 @@ h0 {
 }
 
 .numbers-icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .4rem;
+  height: 2rem;
   font-size: 2rem;
+  vertical-align: middle;
 }
 
 .circle {
