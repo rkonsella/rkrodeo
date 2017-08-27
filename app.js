@@ -51,6 +51,10 @@
 			.state('watson.germany', {
 				url: '/germany',
 				templateUrl: 'states/watson/countries/germany.html'
+			})
+			.state('watson.denmark', {
+				url: '/denmark',
+				templateUrl: 'states/watson/countries/denmark.html'
 			});
 	});
 	app.filter("trust", ['$sce', function ($sce) {

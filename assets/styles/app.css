@@ -5874,6 +5874,15 @@ h0 {
   border-width: thin;
 }
 
+.numbers-box {
+  margin: auto;
+  padding: .5rem;
+  margin: .5rem;
+  border-style: solid;
+  border-width: thin;
+  width: 90%
+}
+
 .numbers-icon {
   padding-left: 1rem;
   padding-right: 1rem;
