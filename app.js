@@ -59,7 +59,7 @@
 			.state('watson.gothenburg', {
 				url: '/gothenburg',
 				templateUrl: 'states/watson/countries/gothenburg.html'
-			});
+			})
 			.state('watson.norway', {
 				url: '/norway',
 				templateUrl: 'states/watson/countries/norway.html'
