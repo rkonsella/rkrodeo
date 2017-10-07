@@ -60,6 +60,10 @@
 				url: '/gothenburg',
 				templateUrl: 'states/watson/countries/gothenburg.html'
 			});
+			.state('watson.norway', {
+				url: '/norway',
+				templateUrl: 'states/watson/countries/norway.html'
+			});
 	});
 	app.filter("trust", ['$sce', function ($sce) {
 		return function (htmlCode) {
