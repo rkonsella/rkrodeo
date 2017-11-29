@@ -94,9 +94,8 @@
 			
 			
 		];
-		var min = Math.ceil(0);
-		var max = Math.floor(this.tweets.length);
-		var int = Math.floor(Math.random() * (max - min)) + min; 
+		var max = (this.tweets.length);
+		var int = Math.floor(Math.random() * (max)); 
 		this.tweet = this.tweets[int];
 
 	});
