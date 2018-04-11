@@ -5818,11 +5818,11 @@ textarea.md-input {
 .top-page-pic{
   display: block;
   margin: auto;
-  width: 102%
+  width: 100%
 }
 
 .in-page-pic{
-  display: block;
+  disftop-pplay: block;
   margin: auto;
   width: 50%
 }
@@ -6027,8 +6027,9 @@ background-color: rgba(237, 112, 88, .6);
 }
 
 .numbers-circle {
-  width: 64px;
-  height: 64px;
-  line-height: 56px;
+  width: 50px;
+  height: 50px;
+  line-height: 42px;
+  font-size: 1.125rem;
   border-radius: 50%;
   padding: 4px; }
