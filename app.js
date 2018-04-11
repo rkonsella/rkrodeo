@@ -111,6 +111,11 @@
 			// console.log(name);
 			return (name);
 		};
+		this.daysOnWatson = function () {
+			var start = new Date(2017,07,13);
+			var today = new Date();
+			return (today - start);
+		}
 	});
 })();
 
