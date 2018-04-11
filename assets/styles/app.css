@@ -6025,3 +6025,10 @@ background-color: rgba(237, 112, 88, .6);
 .ul-height-icon{
   line-height:26px
 }
+
+.numbers-circle {
+  width: 64px;
+  height: 64px;
+  line-height: 56px;
+  border-radius: 50%;
+  padding: 4px; }
