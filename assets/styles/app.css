@@ -4048,9 +4048,18 @@ a.text-blue:hover {
 .text-4x {
   font-size: 4em; }
 
-.l-h {
+.l-h-default {
   line-height: 1.667; }
 
+.l-h-sm {
+  line-height: 1.333; }
+
+.l-h-1 {
+line-height: 1; }
+
+.l-h-2 {
+  line-height: 2; }
+  
 .l-h-1x {
   line-height: 1; }
 
