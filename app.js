@@ -115,7 +115,7 @@
 			var start = new Date(2017,07,13);
 			var today = new Date();
 			return (today - start);
-		}
+		};
 	});
 })();
 
