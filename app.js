@@ -113,9 +113,9 @@
 		};
 		this.daysOnWatson = function () {
 			var start = new Date(2017,7,13);
-			var today = new Date();
+			var today = new Date(2018,4,11);
 			var days = Math.floor((today - start)/1000/60/60/24);
-			return (today);
+			return (days);
 		};
 	});
 })();
