@@ -116,7 +116,7 @@
 			var today = new Date();
 			var todayHard = new Date(2018,4,11);
 			var days = Math.floor((today - start)/1000/60/60/24);
-			return (today, todayHard);
+			return (today.toDateString() + todayHard.toDateString());
 		};
 	});
 })();
