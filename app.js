@@ -48,6 +48,10 @@
 				url: '/',
 				templateUrl: 'states/watson/landing.html'
 			})
+			.state('watson.mine', {
+				url: '/',
+				templateUrl: 'states/watson/mine.html'
+			})
 			.state('watson.germany', {
 				url: '/germany',
 				templateUrl: 'states/watson/countries/germany.html'
