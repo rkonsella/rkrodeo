@@ -4052,6 +4052,9 @@ a.text-blue:hover {
 .text-lg {
   font-size: 1.5rem; }
 
+.text-xl {
+  font-size: 1.75rem; }
+
 .text-2x {
   font-size: 2em; }
 
