@@ -5886,6 +5886,10 @@ h0 {
 
 .inner-box {
   margin: auto;
+  position:absolute;
+  left:0;
+  top:50%;
+  margin-top:-5em;
 }
 
 .home-box {
