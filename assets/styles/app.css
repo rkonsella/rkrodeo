@@ -134,6 +134,13 @@ sup {
   background-color: transparent;
   box-shadow: none !important; }
 
+.btn.b-main:hover,
+.btn.b-main:focus,
+.btn.main:hover,
+.btn.main:focus {
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color:  #154a84; }
+
 .btn.b-primary:hover,
 .btn.b-primary:focus,
 .btn.primary:hover,
@@ -3301,6 +3308,9 @@ body {
 
 .b-white {
   border-color: #fff; }
+
+.b-main {
+border-color:  #154a84; }
 
 .b-primary {
   border-color:  #3eac6d; }
