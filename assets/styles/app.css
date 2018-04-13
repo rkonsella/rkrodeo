@@ -5889,7 +5889,8 @@ h0 {
   position:absolute;
   left:0;
   top:50%;
-  margin-top:-5em;
+  padding:4px;
+  margin-top:4px;
 }
 
 .home-box {
