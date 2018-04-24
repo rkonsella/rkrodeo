@@ -45,7 +45,7 @@
 				templateUrl: 'states/contact.html'
 			})
 			.state('watson.landing', {
-				url: '/',
+				url: '/about',
 				templateUrl: 'states/watson/landing.html'
 			})
 			.state('watson.mine', {
