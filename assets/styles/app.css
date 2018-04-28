@@ -6047,6 +6047,9 @@ background-color: rgba(237, 112, 88, .6);
 }
 
 .numbers-circle {
+  display: block;
+  margin: auto;
+  overflow:auto;
   width: 50px;
   height: 50px;
   line-height: 42px;
