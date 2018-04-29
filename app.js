@@ -121,6 +121,11 @@
 			var days = Math.floor((today - start)/1000/60/60/24);
 			return (days);
 		};
+		this.elementHeight = function(element) {
+			var result = $(element).height();
+			console.log(result);
+			return result;
+		}
 	});
 })();
 
