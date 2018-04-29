@@ -6070,8 +6070,13 @@ background-color: rgba(237, 112, 88, .6);
     border-width: thin;
   }
   
-  .numbers-child {
-    background-color: blue;
+  .numbers-side {
+    display: block;
+    margin: auto;
+    overflow:auto;
     width: 50px;
     height: 50px;
+    line-height: 42px;
+    font-size: 1.5rem;
+    padding: 4px;
   }
