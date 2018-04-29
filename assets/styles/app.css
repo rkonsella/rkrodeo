@@ -6073,11 +6073,11 @@ background-color: rgba(237, 112, 88, .6);
 }
 
 .numbers-flag{
-  display: block;
+  display: inline;
   margin: auto;
   overflow:hidden;
   text-align: center;
-  padding: .5rem;
-  height: 24px;
+  padding: 1rem;
+  height: 52px;
   vertical-align: middle;
 }
