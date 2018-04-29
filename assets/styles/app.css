@@ -6055,27 +6055,36 @@ background-color: rgba(237, 112, 88, .6);
   line-height: 42px;
   font-size: 1.125rem;
   border-radius: 50%;
-  padding: 4px; }
+  padding: 4px; 
+}
 
-  .numbers-outer {
-    overflow: hidden;
-  }
-  
-  .numbers-inner {
-    overflow: hidden;
-    margin: auto;
-    margin: .5rem;
-    border-style: solid;
-    border-width: thin;
-  }
-  
-  .numbers-side {
-    display: block;
-    margin: auto;
-    overflow:hidden;
-    text-align: center;
-    height: 100%;
-    line-height: 100%;
-    font-size: 2rem;
-    padding: 1rem;
-  }
+.numbers-outer {
+  overflow: hidden;
+}
+
+.numbers-inner {
+  overflow: hidden;
+  margin: auto;
+  margin: .5rem;
+  border-style: solid;
+  border-width: thin;
+}
+
+.numbers-side {
+  display: block;
+  margin: auto;
+  overflow:hidden;
+  text-align: center;
+  height: 100%;
+  line-height: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.numbers-flag{
+  display: block;
+  margin: auto;
+  overflow:hidden;
+  text-align: center;
+  padding: .5rem
+}
