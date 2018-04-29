@@ -121,10 +121,10 @@
 			var days = Math.floor((today - start)/1000/60/60/24);
 			return (days);
 		};
-		angular.element(document).ready(function () {
+		this.setLineHeight = function(element) {
 			var result = $(element).height();
 			console.log(result);
-			this.lineHeight = {'line-height': result.toString()+"px"};
-		});
+			return {'line-height': result.toString()+"px"};
+		}
 	});
 })();
