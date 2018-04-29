@@ -5911,14 +5911,6 @@ h0 {
   width: 90%
 }
 
-.numbers-icon {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: .4rem;
-  height: 24px;
-  vertical-align: middle;
-}
-
 .circle {
   display: block;
   margin: auto;
@@ -6086,5 +6078,7 @@ background-color: rgba(237, 112, 88, .6);
   margin: auto;
   overflow:hidden;
   text-align: center;
-  padding: .5rem
+  padding: .5rem;
+  height: 24px;
+  vertical-align: middle;
 }
