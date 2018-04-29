@@ -6077,7 +6077,8 @@ background-color: rgba(237, 112, 88, .6);
   margin: auto;
   overflow:hidden;
   text-align: center;
-  padding: 1rem;
-  height: 52px;
+  margin: 1rem;
+  height: 24px;
+  background-color: blue;
   vertical-align: middle;
 }
