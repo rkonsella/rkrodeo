@@ -124,7 +124,7 @@
 		this.setLineHeight = function(element) {
 			var result = $(element).height();
 			console.log(result);
-			this.lineHeight = "line-height: " +result.toString()+"px";
+			this.lineHeight = "'line-height': " +result.toString()+"px";
 		}
 	});
 })();
