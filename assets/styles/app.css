@@ -6073,6 +6073,7 @@ background-color: rgba(237, 112, 88, .6);
     display: block;
     margin: auto;
     overflow:hidden;
+    text-align: center;
     width: 20%;
     height: 300px;
     line-height: 300px;
