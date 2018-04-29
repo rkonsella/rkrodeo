@@ -78,7 +78,8 @@
 <div class="row">
 	<div class="numbers-outer">
 		<div class="numbers-inner">
-			<div class="numbers-side bg-riley-main pull-left" ng-style="{{ctrl.setLineHeight('#countries')}}">15</div>
+			<span style="display:hidden">{{ctrl.setLineHeight('#countries')}}</span>
+			<div class="numbers-side bg-riley-main pull-left" ng-style="{{ctrl.lineHeight}}">15</div>
 			<div id="countries" class="text-center p-y-1 txt-riley-main">
 				<div class="txt-riley-main">
 					<h3>Countries</h3>

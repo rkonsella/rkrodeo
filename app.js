@@ -122,9 +122,9 @@
 			return (days);
 		};
 		this.setLineHeight = function(element) {
-		// 	var result = $(element).height();
-		// 	console.log(result);
-		// 	return "'line-height': '" +result.toString()+"px'";
+			var result = $(element).height();
+			console.log(result);
+			this.lineHeight = "'line-height': '" +result.toString()+"px'";
 		}
 	});
 })();
