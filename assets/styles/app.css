@@ -6068,6 +6068,7 @@ background-color: rgba(237, 112, 88, .6);
   margin: .5rem;
   border-style: solid;
   border-width: thin;
+  position: relative;
 }
 
 .numbers-side {
@@ -6108,8 +6109,8 @@ background-color: rgba(237, 112, 88, .6);
 
 .bottom-right{
   top: auto;
-  right: 20px;
-  bottom: 12px;
+  right: 12px;
+  bottom: 8px;
   left: auto;
   position: absolute; 
 }
