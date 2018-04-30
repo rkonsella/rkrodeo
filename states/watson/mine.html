@@ -18,7 +18,7 @@
 	<div class="numbers-outer">
 		<div class="numbers-inner">
 			<div class="numbers-side bg-riley-main pull-right" ng-style="ctrl.setLineHeight('#daysSinceLeaving')">{{ctrl.daysOnWatson()}}</div>
-			<h3 id="daysSinceLeaving" class="text-center p-a m-a-0 txt-riley-main">Days Since Leaving U.S.</h3>
+			<div id="daysSinceLeaving" class="text-center p-a m-a-0 txt-riley-main text-xl">Days Since Leaving U.S.</div>
 		</div>
 	</div>
 </div>
@@ -28,7 +28,7 @@
 		<div class="numbers-inner">
 			<div class="numbers-side bg-riley-main pull-left" ng-style="ctrl.setLineHeight('#countries')">15</div>
 			<div id="countries" class="text-center p-y-1 txt-riley-main">
-				<h3 ng-click="ctrl.showFlags = !ctrl.showFlags">Countries Visited</h3>
+				<div ng-click="ctrl.showFlags = !ctrl.showFlags" class="text-xl">Countries Visited</div>
 				<div ng-show="ctrl.showFlags" ng-hide="!ctrl.showFlags">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/de.svg" alt="flag" class="numbers-flag">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/dk.svg" alt="flag" class="numbers-flag">
@@ -54,11 +54,12 @@
 <div class="row">
 	<div class="numbers-outer">
 		<div class="numbers-inner">
-			<h3 class="numbers-top bg-riley-main">Best Transportation System</h3>
-			<h2 class="text-center p-a m-a-0 txt-riley-main">
+			<div class="numbers-top bg-riley-main text-xl" ng-click="ctrl.showNetherlands = !ctrl.showNetherlands">
+				Best Transportation System</div>
+			<div class="text-center p-a m-a-0 txt-riley-main text-xxl">
 				<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/nl.svg" alt="flag" style="height:58px" class="numbers-flag">
 				<div class="text-xxxl">Netherlands</div>
-			</h2>
+			</div>
 		</div>
 	</div>
 </div>
