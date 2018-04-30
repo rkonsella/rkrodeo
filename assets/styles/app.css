@@ -6064,7 +6064,6 @@ background-color: rgba(237, 112, 88, .6);
 }
 
 .numbers-inner {
-  overflow: hidden;
   margin: auto;
   margin: .5rem;
   border-style: solid;
