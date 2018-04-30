@@ -4056,7 +4056,13 @@ font-size: 1.125rem; }
   font-size: 1.5rem; }
 
 .text-xl {
-  font-size: 1.75rem; }
+font-size: 1.75rem; }
+
+.text-xxl {
+font-size: 2rem; }
+
+.text-xxxl {
+  font-size: 2.5rem; }
 
 .text-2x {
   font-size: 2em; }
