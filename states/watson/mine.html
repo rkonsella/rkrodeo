@@ -29,7 +29,7 @@
 			<div class="numbers-side bg-riley-main pull-left" ng-style="ctrl.setLineHeight('#countries')">15</div>
 			<div id="countries" class="text-center p-y-1 txt-riley-main">
 				<h3 ng-click="ctrl.showFlags = !ctrl.showFlags">Countries Visited</h3>
-				<div ng-show="ctrl.showFlags">
+				<div ng-show="ctrl.showFlags" ng-hide="!ctrl.showFlags">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/de.svg" alt="flag" class="numbers-flag">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/dk.svg" alt="flag" class="numbers-flag">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/se.svg" alt="flag" class="numbers-flag">
