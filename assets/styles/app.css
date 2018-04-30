@@ -6105,3 +6105,11 @@ background-color: rgba(237, 112, 88, .6);
 .italic{
   font-style:italic;
 }
+
+.bottom-right{
+  top: auto;
+  right: 20px;
+  bottom: 12px;
+  left: auto;
+  position: absolute; 
+}

@@ -28,6 +28,12 @@
 		<div class="numbers-inner">
 			<div class="numbers-side bg-riley-main pull-left" ng-style="ctrl.setLineHeight('#countries')">15</div>
 			<div id="countries" class="text-center p-y-1 txt-riley-main">
+				<div class="bottom-right txt-riley-main" ng-show="!ctrl.showFkags">
+					<i class="fa fa-plus-circle"></i>
+				</div>
+				<div class="bottom-right txt-riley-main" ng-show="ctrl.showFlags">
+					<i class="fa fa-minus-circle"></i>
+				</div>
 				<div ng-click="ctrl.showFlags = !ctrl.showFlags" class="text-xl">Countries Visited</div>
 				<div ng-show="ctrl.showFlags" ng-click="!ctrl.showFlags" class="m-t-1">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/de.svg" alt="flag" class="numbers-flag">
@@ -87,10 +93,10 @@
 					<p class="italic _300">Honorable Mentions: Denmark, Sweden, Singapore</p>
 				</div>
 			</div>
-			<div class="md-fab-bottom-right txt-riley-main" ng-show="!ctrl.showNetherlands">
+			<div class="bottom-right txt-riley-main" ng-show="!ctrl.showNetherlands">
 				<i class="fa fa-plus-circle"></i>
 			</div>
-			<div class="md-fab-bottom-right txt-riley-main" ng-show="ctrl.showNetherlands">
+			<div class="bottom-right txt-riley-main" ng-show="ctrl.showNetherlands">
 				<i class="fa fa-minus-circle"></i>
 			</div>
 		</div>
