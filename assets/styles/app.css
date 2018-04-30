@@ -4047,7 +4047,10 @@ a.text-blue:hover {
   font-size: 0.8rem; }
 
 .text-md {
-  font-size: 1.125rem; }
+font-size: 1.125rem; }
+
+.text-mdlg {
+  font-size: 1.25rem; }
 
 .text-lg {
   font-size: 1.5rem; }
@@ -6068,7 +6071,7 @@ background-color: rgba(237, 112, 88, .6);
   overflow:hidden;
   text-align: center;
   height: 100%;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 1rem;
 }
 
