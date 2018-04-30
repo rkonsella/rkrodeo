@@ -127,5 +127,6 @@
 		}
 		this.showFlags = false;
 		this.showNetherlands = false;
+		this.showRink = false;
 	});
 })();
