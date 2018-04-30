@@ -126,5 +126,6 @@
 			console.log(result);
 			return {'line-height': result.toString()+"px"};
 		}
+		this.showFlags = false;
 	});
 })();
