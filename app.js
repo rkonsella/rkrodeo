@@ -126,5 +126,6 @@
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
+		this.showNetherlands = false;
 	});
 })();
