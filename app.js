@@ -123,7 +123,9 @@
 		};
 		this.setLineHeight = function(element) {
 			var result;
+			console.log("huh");
 			setTimeout(result = $(element).height(), 4000);
+			;console.log("what");
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
