@@ -122,7 +122,8 @@
 			return (days);
 		};
 		this.setLineHeight = function(element) {
-			var result = $(element).height();
+			var result;
+			setTimeout(result = $(element).height(), 4000);
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
