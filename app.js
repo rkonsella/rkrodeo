@@ -125,19 +125,6 @@
 		this.setLineHeight = function(element) {
 			var result;
 			result = $(element).height();
-			if (element == "#countries" && this.countriesHeight != 0){
-				console.log('3');
-				return {'line-height': this.countriesHeight+"px"};
-			}else if(element == "#countries"){
-				console.log('1');
-				setTimeout(function () {
-					this.countriesHeight = {'line-height': result.toString()+"px"};
-					console.log('2');
-					return this.countriesHeight;
-				},5000);
-			};
-			
-			console.log(result.toString());
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
