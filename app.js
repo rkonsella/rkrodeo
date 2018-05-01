@@ -126,6 +126,7 @@
 			var result;
 			result = $(element).height();
 			if (element == "#countries" && this.countriesHeight != 0){
+				console.log('3');
 				return {'line-height': this.countriesHeight+"px"};
 			}else if(element == "#countries"){
 				console.log('1');
@@ -135,6 +136,8 @@
 					return this.countriesHeight;
 				},5000);
 			};
+			
+			console.log('4');
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
