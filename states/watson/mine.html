@@ -27,14 +27,14 @@
 	<div class="numbers-outer">
 		<div class="numbers-inner" ng-click="ctrl.showFlags = !ctrl.showFlags">
 			<div class="numbers-side bg-riley-main pull-left" ng-style="ctrl.setLineHeight('#countries')">15</div>
-			<div id="countries" class="text-center p-y-1 txt-riley-main">
+			<div class="text-center p-y-1 txt-riley-main">
 				<div class="bottom-right txt-riley-main" ng-show="!ctrl.showFlags">
 					<i class="fa fa-plus-circle"></i>
 				</div>
 				<div class="bottom-right txt-riley-main" ng-show="ctrl.showFlags">
 					<i class="fa fa-minus-circle"></i>
 				</div>
-				<div class="text-xl">Countries Visited</div>
+				<div  id="countries" class="text-xl">Countries Visited</div>
 				<div ng-show="ctrl.showFlags" class="m-t-1">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/de.svg" alt="flag" class="numbers-flag">
 					<img src="https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/dk.svg" alt="flag" class="numbers-flag">
