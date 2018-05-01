@@ -6109,8 +6109,8 @@ background-color: rgba(237, 112, 88, .6);
 
 .bottom-right{
   top: auto;
-  right: 2px;
-  bottom: -2px;
+  right: 3px;
+  bottom: -1px;
   left: auto;
   position: absolute; 
 }
