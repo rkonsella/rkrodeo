@@ -137,7 +137,7 @@
 				},5000);
 			};
 			
-			console.log('4');
+			console.log(result.toString());
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
