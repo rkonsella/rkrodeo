@@ -125,7 +125,6 @@
 			var result = $(element).height();
 			return {'line-height': result.toString()+"px"};
 		}
-		this.countriesHeight = this.setLineHeight('#countries');
 		this.showFlags = false;
 		this.showNetherlands = false;
 		this.showRink = false;
