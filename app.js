@@ -127,9 +127,11 @@
 			result = $(element).height();
 			if (element == "#countries" && this.countriesHeight != 0){
 				return {'line-height': this.countriesHeight+"px"};
-			}else if(element == "#countries"){
+			}else if(element == "#countries"){\
+				console.log(1);
 				setTimeout(function () {
 					this.countriesHeight = {'line-height': result.toString()+"px"};
+					console.log(2);
 					return this.countriesHeight;
 				},5000);
 			};
