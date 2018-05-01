@@ -132,5 +132,6 @@
 		this.showFlags = false;
 		this.showNetherlands = false;
 		this.showRink = false;
+		this.showHovenring = false;
 	});
 })();
