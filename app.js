@@ -128,8 +128,11 @@
 			if (element == "#countries" && this.countriesHeight != 0){
 				return {'line-height': this.countriesHeight+"px"};
 			}else if(element == "#countries"){
-				this.countriesHeight = {'line-height': result.toString()+"px"};
-			}
+				setTimeout(function () {
+					this.countriesHeight = {'line-height': result.toString()+"px"};
+					return this.countriesHeight;
+				},5000);
+			};
 			return {'line-height': result.toString()+"px"};
 		}
 		this.showFlags = false;
