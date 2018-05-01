@@ -121,14 +121,17 @@
 			var days = Math.floor((today - start)/1000/60/60/24);
 			return (days);
 		};
+		this.countriesHeight = 0;
 		this.setLineHeight = function(element) {
 			var result;
-			console.log("huh");
-			setTimeout(result = $(element).height(), 4000);
-			;console.log("what");
+			result = $(element).height();
+			if (element == "#countries" && this.countriesHeight != 0){
+				return {'line-height': this.countriesHeight+"px"};
+			}else if(element == "#countries"){
+				this.countriesHeight = {'line-height': result.toString()+"px"};
+			}
 			return {'line-height': result.toString()+"px"};
 		}
-		this.countriesHeight = this.setLineHeight("#countries");
 		this.showFlags = false;
 		this.showNetherlands = false;
 		this.showRink = false;
